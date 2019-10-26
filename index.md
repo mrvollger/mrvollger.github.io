@@ -1,6 +1,6 @@
 Doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu/).  
 
-## Online presence
+### Online presence
 
 - Webpage: [mrvollger.github.io](https://mrvollger.github.io)
 - GitHub: [mrvollger](https://github.com/mrvollger)
