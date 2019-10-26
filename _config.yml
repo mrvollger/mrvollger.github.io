@@ -49,10 +49,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mrvollger"
     - label: "ORCID"
-      icon: "fas fa-fw fa-orcid"
+      icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-8651-1615"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-google-scholar"
+      icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=oocozW4AAAAJ&hl"
 
 
