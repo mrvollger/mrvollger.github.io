@@ -1,4 +1,10 @@
 theme: jekyll-theme-slate
 title: [Mitchell R. Vollger]
-twitter:
-  username: "mrvollger"
+locale: en_US
+
+owner:
+  name: Mitchell R. Vollger
+  email: mvollger@uw.edu
+  twitter: mrvollger
+  github: mrvollger
+  orcid: 0000-0002-8651-1615
