@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 twitter_username: mrvollger
 github_username: mrvollger
-minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
@@ -46,11 +46,14 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/mrvollger"
     - label: "GitHub"
-      icon: "fab fa-fw fa-orcid"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/mrvollger"
     - label: "ORCID"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-8651-1615"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=oocozW4AAAAJ&hl"
 
 
 
