@@ -13,8 +13,8 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zo
 
 include:
@@ -77,6 +77,14 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:mrvollger@gmail.com
 
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
 defaults:
   # _posts
   - scope:
@@ -96,6 +104,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+
 
 category_archive:
   type: liquid
