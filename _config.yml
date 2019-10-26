@@ -54,7 +54,9 @@ author:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=oocozW4AAAAJ&hl"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:mrvollger@gmail.com
 
 
 footer:
@@ -71,7 +73,9 @@ footer:
     - label: "Google Scholar"
       icon: "fab fa-fw fa-user-graduate"
       url: "https://scholar.google.com/citations?user=oocozW4AAAAJ&hl"
-
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:mrvollger@gmail.com
 
 defaults:
   # _posts
