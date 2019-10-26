@@ -1,6 +1,4 @@
-## Mitchell R. Vollger
-
-Current doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu/).  
+Doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu/).  
 
 ## Online presence
 
