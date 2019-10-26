@@ -32,7 +32,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-include-cach
+  - jekyll-include-cache
+
 
 author:
   name   : "Mitchell Vollger"
