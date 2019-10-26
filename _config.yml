@@ -1,13 +1,18 @@
-theme: jekyll-theme-slate
+#theme: jekyll-theme-slate
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
 title: [Mitchell R. Vollger]
 locale: en_US
 
-owner:
-  name: Mitchell R. Vollger
-  email: mvollger@uw.edu
-  twitter: mrvollger
-  github: mrvollger
-  orcid: 0000-0002-8651-1615
 
-plugins:
-  - jekyll-gist
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mrvollger"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mrvollger"
