@@ -8,3 +8,6 @@ owner:
   twitter: mrvollger
   github: mrvollger
   orcid: 0000-0002-8651-1615
+
+plugins:
+  - jekyll-gist
