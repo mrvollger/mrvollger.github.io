@@ -37,7 +37,7 @@ plugins:
 author:
   name   : "Mitchell Vollger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Doctoral candidate in Evan E. Eichler's lab."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
