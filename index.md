@@ -11,6 +11,13 @@ header:
 
 I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington.
 
+## Software
+
+- Segemntal Duplication Assembler ([SDA](https://github.com/mrvollger/SDA)) for identifying and resolving collapsed SDs.  
+- Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) for visualizing resolved and unresolved SDs in a human *de novo* assembly.
+- [Ideogram](https://github.com/mrvollger/ideogram) for visualizing *de novo* assemblies against a karyotype of the human reference.
+
+
 ## Highlighted Publications
 - Hsieh, Pinghsun, **Mitchell R. Vollger**, Vy Dang, David Porubsky, Carl Baker, Stuart Cantsilieris, Kendra Hoekzema, et al. 2019. “Adaptive Archaic Introgression of Copy Number Variants and the Discovery of Previously Unknown Human Genes.” Science 366 (6463). <https://doi.org/10.1126/science.aax2083>.
 
