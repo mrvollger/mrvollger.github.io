@@ -59,6 +59,9 @@ author:
       url: mailto:mrvollger@gmail.com
 
 
+header:
+  teaser: /assets/images/header.jpg
+
 footer:
   links:
     - label: "Twitter"
