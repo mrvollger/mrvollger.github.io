@@ -1,4 +1,4 @@
-title: M. r. Vollger
+title: M.r. Vollger
 email: mvollger@uw.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Doctoral candidate in Evan E. Eichler's lab.
@@ -35,7 +35,7 @@ plugins:
 
 
 author:
-  name   : "Mitchell R. Vollger"
+  name   : "Mitchell Robert Vollger"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Doctoral candidate in Evan E. Eichler's lab."
   links:
