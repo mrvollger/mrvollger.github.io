@@ -11,3 +11,11 @@ header:
 
 I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington.
 
+
+### Education 
+
+- 2016--Present Ph.D Candidate in Genome Sciences at University of Washington (Seattle, Washington)
+- 2011--2015 B.S.E Computer Science at Princeton University
+
+
+
