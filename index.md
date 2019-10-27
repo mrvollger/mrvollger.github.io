@@ -8,8 +8,6 @@ header:
   image: /assets/images/header.jpg
 ---
 
-## Header 
-
-This is my main page, and stuff is here
-
+# About me 
+I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington.
 
