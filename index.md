@@ -19,6 +19,8 @@ I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washi
 
 
 ## Highlighted Publications
+- Nurk S, Walenz BP, Rhie A, **Vollger MR**, Logsdon GA, Grothe R, Miga KH, Eichler EE, Phillippy AM, Koren S. 2020. HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads. bioRxiv. doi:10.1101/2020.03.14.992248
+
 - Hsieh, Pinghsun, **Mitchell R. Vollger**, Vy Dang, David Porubsky, Carl Baker, Stuart Cantsilieris, Kendra Hoekzema, et al. 2019. “Adaptive Archaic Introgression of Copy Number Variants and the Discovery of Previously Unknown Human Genes.” Science 366 (6463). <https://doi.org/10.1126/science.aax2083>.
 
 - Miga, Karen H., Sergey Koren, Arang Rhie, **Mitchell R. Vollger**, Ariel Gershman, Andrey Bzikadze, Shelise Brooks, et al. 2019. “Telomere-to-Telomere Assembly of a Complete Human X Chromosome.” bioRxiv. <https://doi.org/10.1101/735928>.
