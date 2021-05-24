@@ -13,12 +13,12 @@ I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.
 
 ## Software
 
-- Segemntal Duplication Assembler ([SDA](https://github.com/mrvollger/SDA)) for identifying and resolving collapsed SDs.  
-- [SafFire](https://mrvollger.github.io/SafFire/) for genome wide miropeats vizualizations.
-- [rustybam](https://mrvollger.github.io/rustybam/).
-- [StainedGlass](https://mrvollger.github.io/StainedGlass/).
-- Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) for visualizing resolved and unresolved SDs in a human *de novo* assembly.
-- [Ideogram](https://github.com/mrvollger/ideogram) for visualizing *de novo* assemblies against a karyotype of the human reference.
+- Segemntal Duplication Assembler ([SDA](https://github.com/mrvollger/SDA)) is for identifying and resolving collapsed SDs.  
+- [SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats vizualizations.
+- [rustybam](https://mrvollger.github.io/rustybam/) is a toolkit for processing alignments.
+- [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
+- Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) is for visualizing resolved and unresolved SDs in a human *de novo* assembly.
+- [Ideogram](https://github.com/mrvollger/ideogram) is for visualizing *de novo* assemblies against a karyotype of the human reference.
 
 
 ## Highlighted Publications
