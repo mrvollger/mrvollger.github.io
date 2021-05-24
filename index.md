@@ -14,6 +14,9 @@ I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washi
 ## Software
 
 - Segemntal Duplication Assembler ([SDA](https://github.com/mrvollger/SDA)) for identifying and resolving collapsed SDs.  
+- [SafFire](https://mrvollger.github.io/SafFire/) for genome wide miropeats vizualizations.
+- [rustybam](https://mrvollger.github.io/rustybam/).
+- [StainedGlass](https://mrvollger.github.io/StainedGlass/).
 - Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) for visualizing resolved and unresolved SDs in a human *de novo* assembly.
 - [Ideogram](https://github.com/mrvollger/ideogram) for visualizing *de novo* assemblies against a karyotype of the human reference.
 
@@ -32,7 +35,7 @@ I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washi
 
 ## Education 
 
-- 2016--Present		Ph.D Candidate in Genome Sciences at University of Washington
+- 2016--2021		Ph.D in Genome Sciences at University of Washington
 - 2011--2015		B.S.E Computer Science at Princeton University
 
 
