@@ -9,7 +9,7 @@ header:
   image: /assets/images/header.jpg
 ---
 
-I am a doctoral candidate in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington. To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes). 
+I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington. To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes). 
 
 ## Software
 
