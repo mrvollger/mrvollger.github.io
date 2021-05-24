@@ -13,7 +13,7 @@ I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.
 
 ## Software
 
-- Segemntal Duplication Assembler ([SDA](https://github.com/mrvollger/SDA)) is for identifying and resolving collapsed SDs.  
+- Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.  
 - [SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats vizualizations.
 - [rustybam](https://mrvollger.github.io/rustybam/) is a toolkit for processing alignments.
 - [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
