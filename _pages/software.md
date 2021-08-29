@@ -31,7 +31,7 @@ feature_row1-2:
   alt: ""
   title: "Rustybam"
   excerpt: "
-A toolkit for processing alignments. Works well with [SafFire](/software/#Visualization).
+A toolkit for processing alignments. Works well with [SafFire](/software/#visualization).
 <br/>
 [Rustybam](https://mrvollger.github.io/rustybam/){: .btn .btn--info .btn--large} 
   "
