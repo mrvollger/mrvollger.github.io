@@ -63,7 +63,7 @@ feature_stainedglass:
 
 feature_saffire:
 
-- image_path: https://mrvollger.github.io/SafFire/SafFire_logo.svg
+- image_path: "/assets/images/SafFire.png"
   alt: ""
   title: "SafFire"
   excerpt: "
