@@ -27,28 +27,39 @@ def make_author_string(entry, args):
     """
     Given a bibtexparser entry, return a string of the form "Firstname Lastname"
     """
-    authors = [author.strip() for author in entry["author"].split(" and")]
-    max_n = 10
+    authors = [
+        author.strip()
+        for author in entry["author"].split(" and")
+        if len(author.strip()) > 0
+    ]
+    max_n = args.authors
     rtn = ""
     for idx, author in enumerate(authors):
-        if is_me(author):
+        me = is_me(author)
+        if me:
             author = "Mitchell R. Vollger"
             if args.md:
                 author = "*" + author + "*"
             if args.html:
                 author = "<b>" + author + "</b>"
 
-        if idx < max_n - 1:
+        if idx < max_n and idx < len(authors):
             rtn += author + ", "
-        elif idx == max_n - 1:
-            rtn += author
-        elif is_me(author):
+        elif me:
             if idx == max_n:
-                rtn += "Mitchell R. Vollger "
+                rtn += author + ", "
             else:
-                rtn += ",... Mitchell R. Vollger..."
-        elif idx + 1 == len(authors):
+                rtn += "... " + author + "..."
+
+    rtn = rtn.strip().strip(",")
+    if max_n < len(authors):
+        if args.md:
+            rtn += ", ~et al~."
+        elif args.html:
+            rtn += ", <i>et al</i>."
+        else:
             rtn += ", et al."
+
     return rtn
 
 

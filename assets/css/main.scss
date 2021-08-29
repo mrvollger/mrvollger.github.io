@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 // set highlight color to aqua - override contrast skin default of red
-$primary-color: #028f6a !default;
+$primary-color: #02548f !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
