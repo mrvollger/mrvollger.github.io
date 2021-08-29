@@ -14,7 +14,7 @@ title: "Software"
 
 feature_sda:
 
-- image_path: 
+- image_path: "/assets/images/SDA.png"
   alt: ""
   title: "Segemntal Duplication Assembler (SDA)"
   excerpt: "
@@ -26,7 +26,7 @@ Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for
 
 feature_rustybam:
 
-- image_path: 
+- image_path: "/assets/images/rustybam.png"
   alt: ""
   title: "Rustybam"
   excerpt: "
@@ -38,7 +38,7 @@ A toolkit for processing alignments. Works well with [SafFire](/software/#visual
 
 feature_row1-3:
 
-- image_path: 
+- image_path: "assets/images/tbc1d3.png"
   alt: ""
   title: "Rhodonite"
   excerpt: "
@@ -67,10 +67,10 @@ feature_saffire:
   alt: ""
   title: "SafFire"
   excerpt: "
-  SafFire is a tool for visualizing alignments between genomes. It serves as a interactive replacement for miropeats. 
-  <br/>
-  [SafFire](https://mrvollger.github.io/SafFire/){: .btn .btn--info .btn--large} 
-  "
+SafFire is a tool for visualizing alignments between genomes. It serves as a interactive replacement for miropeats. 
+<br/>
+[SafFire](https://mrvollger.github.io/SafFire/){: .btn .btn--info .btn--large} 
+"
 
 
 feature_nucfreq:
@@ -110,11 +110,11 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 
 # Tools
 
-{% include feature_row id="feature_sda" type="center" %}
+{% include feature_row id="feature_sda" type="right" %}
 
-{% include feature_row id="feature_rustybam" type="center" %}
+{% include feature_row id="feature_rustybam" type="left" %}
 
-{% include feature_row id="feature_row1-3" type="center" %}
+{% include feature_row id="feature_row1-3" type="right" %}
 
 # Visualization
 
