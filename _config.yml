@@ -37,7 +37,7 @@ plugins:
 author:
   name   : "Mitchell Robert Vollger"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Doctoral candidate"
+  bio    : "Postdoctoral fellow"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
