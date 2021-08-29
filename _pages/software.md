@@ -1,9 +1,41 @@
 ---
-title: "Software"
-layout: archive
-permalink: /software/
+layout: splash
+classes: wide
 author_profile: true
+permalink: /software/
+header:
+    overlay_image: /assets/images/header.jpg
+    caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
+title: "Software"
+
+feature_row1-1:
+
+- image_path: https://mrvollger.github.io/SafFire/SafFire_logo.svg
+  alt: ""
+  title: "SafFire"
+  excerpt: "
+  SafFire is a tool for visualizing alignments between genomes. It serves as a interactive replacement for miropeats. 
+  <br/>
+  [SafFire](https://mrvollger.github.io/SafFire/){: .btn .btn--info .btn--large} 
+  "
+
+feature_row1-2:
+
+- image_path: https://mrvollger.github.io/SafFire/SafFire_logo.svg
+  alt: ""
+  title: "SafFire"
+  excerpt: "
+  SafFire is a tool for visualizing alignments between genomes. It serves as a interactive replacement for miropeats. 
+  <br/>
+  [SafFire](https://mrvollger.github.io/SafFire/){: .btn .btn--info .btn--large} 
+  "
+
+
 ---
+
+{% include feature_row id="feature_row1-1" type="left" %}
+{% include feature_row id="feature_row1-2" type="right" %}
+<br/>
 
 ## Tools
 
@@ -17,7 +49,7 @@ author_profile: true
 
 <img src="https://mrvollger.github.io/SafFire/SafFire_logo.svg" alt="SafFire" width="50" align="right"/>
 
-- [SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats visualizations.
+-
 
 - [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
   <img src="https://raw.githubusercontent.com/mrvollger/StainedGlass/main/images/chr8.png" alt="SafFire" width="200"  align="right"/>

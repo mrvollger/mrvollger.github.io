@@ -6,22 +6,14 @@ title: About me
 layout: single
 author_profile: true
 header:
-  image: /assets/images/header.jpg
+  overlay_image: /assets/images/header.jpg
+  caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 ---
 
-I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington. To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes). 
-
-## Software
-
-- Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.  
-- [SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats vizualizations.
-- [rustybam](https://mrvollger.github.io/rustybam/) is a toolkit for processing alignments.
-- [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
-- Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) is for visualizing resolved and unresolved SDs in a human *de novo* assembly.
-- [Ideogram](https://github.com/mrvollger/ideogram) is for visualizing *de novo* assemblies against a karyotype of the human reference.
-
+I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington. To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes).
 
 ## Highlighted Publications
+
 - Nurk S, Walenz BP, Rhie A, **Vollger MR**, Logsdon GA, Grothe R, Miga KH, Eichler EE, Phillippy AM, Koren S. 2020. HiCanu: accurate assembly of segmental duplications, satellites, and allelic variants from high-fidelity long reads. bioRxiv. <https://doi.org/10.1101/2020.03.14.992248>.
 
 - Hsieh, Pinghsun, **Mitchell R. Vollger**, Vy Dang, David Porubsky, Carl Baker, Stuart Cantsilieris, Kendra Hoekzema, et al. 2019. “Adaptive Archaic Introgression of Copy Number Variants and the Discovery of Previously Unknown Human Genes.” Science 366 (6463). <https://doi.org/10.1126/science.aax2083>.
@@ -32,11 +24,7 @@ I am a postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.
 
 - **Vollger, Mitchell R.**, Philip C. Dishuck, Melanie Sorensen, Annemarie E. Welch, Vy Dang, Max L. Dougherty, Tina A. Graves-Lindsay, Richard K. Wilson, Mark J. P. Chaisson, and Evan E. Eichler. 2019. “Long-Read Sequence and Assembly of Segmental Duplications.” Nature Methods 16 (1): 88–94. <http://dx.doi.org/10.1038/s41592-018-0236-3>.
 
+## Education
 
-## Education 
-
-- 2016--2021		Ph.D in Genome Sciences at University of Washington
-- 2011--2015		B.S.E Computer Science at Princeton University
-
-
-
+- 2016--2021 Ph.D in Genome Sciences at University of Washington
+- 2011--2015 B.S.E Computer Science at Princeton University
