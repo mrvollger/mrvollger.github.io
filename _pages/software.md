@@ -1,9 +1,9 @@
 ---
 class: wide
+permalink: /software/
+author_profile: true
 toc: true
 toc_label: "Software"
-author_profile: true
-permalink: /software/
 header:
   overlay_image: /assets/images/header.jpg
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
@@ -31,7 +31,7 @@ feature_row1-2:
   alt: ""
   title: "Rustybam"
   excerpt: "
-A toolkit for processing alignments. Works well with [SafFire](/software/#feature_saffire).
+A toolkit for processing alignments. Works well with [SafFire](/software/#Visualization).
 <br/>
 [Rustybam](https://mrvollger.github.io/rustybam/){: .btn .btn--info .btn--large} 
   "
@@ -108,8 +108,6 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 ---
 
 # Tools
-
-## SDA
 
 {% include feature_row id="feature_sda" type="center" %}
 
