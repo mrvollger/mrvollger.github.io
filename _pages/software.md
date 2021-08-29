@@ -18,12 +18,11 @@ feature_sda:
   alt: ""
   title: "Segemntal Duplication Assembler (SDA)"
   excerpt: "
-Segemntal Duplication Assembler
- ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.
-
-  <br/>
-  [SDA](https://mrvollger.github.io/SDA/){: .btn .btn--info .btn--large} 
-  "
+Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.
+<br/>
+[SDA](https://mrvollger.github.io/SDA/){: .btn .btn--info .btn--large} 
+<br/>
+"
 
 feature_rustybam:
 
@@ -34,7 +33,8 @@ feature_rustybam:
 A toolkit for processing alignments. Works well with [SafFire](/software/#visualization).
 <br/>
 [Rustybam](https://mrvollger.github.io/rustybam/){: .btn .btn--info .btn--large} 
-  "
+<br/>
+"
 
 feature_row1-3:
 
@@ -43,9 +43,10 @@ feature_row1-3:
   title: "Rhodonite"
   excerpt: "
 A modular workflow for sequence masking and annotation.
-  <br/>
+<br/>
 [Rhodonite](https://mrvollger.github.io/Rhodonite/){: .btn .btn--info .btn--large} 
-  "
+<br/>
+"
 
 
 feature_stainedglass:
