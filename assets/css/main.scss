@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// set highlight color to aqua - override contrast skin default of red
+$primary-color: #028f6a !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// site-wide classes
+
+.page__content a {
+  text-decoration: none;
+  /* font-weight: bold; */
+  font-size: 1em;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
+//  Publications page
+.publication-table .pub-title {
+  /* font-weight: bold; */
+  font-size: 1.25em;
+}
+
+.publication-table td {
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+
+.publication-table thead {
+  display: none;
+}
+
+.publication-table caption {
+  text-align: left;
+  caption-side: top;
+  font-size: 2em;
+}
+
+.publication-featured {
+  color: #028f6a;
+}
+
+.publication-featured a {
+  color: #028f6a;
+}
