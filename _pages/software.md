@@ -1,5 +1,6 @@
 ---
-class: wide
+layout: single
+#class: wide
 permalink: /software/
 author_profile: true
 toc: true
@@ -122,7 +123,7 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 
 {% include feature_row id="feature_saffire" type="right" %}
 
-{% include feature_row id="feature_nucfreq" type="left" %}
+{% include feature_row id="feature_nucfreq" type="center" %}
 
 {% include feature_row id="feature_ideogram" type="center" %}
 
