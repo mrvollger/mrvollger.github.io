@@ -5,13 +5,15 @@ permalink: /software/
 author_profile: true
 ---
 
-# Tools
+## Tools
 
 - Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.
 
-- [rustybam](https://mrvollger.github.io/rustybam/) is a toolkit for processing alignments.
+- [Rustybam](https://mrvollger.github.io/rustybam/) is a toolkit for processing alignments. Works well with SafFire.
 
-# Visualization
+- [Rhodonite](https://github.com/mrvollger/Rhodonite) is a modular workflow for sequence masking and annotation.
+
+## Visualization
 
 - <img src="https://mrvollger.github.io/SafFire/SafFire_logo.svg" alt="SafFire" width="50" style="float: left;"/>
 
@@ -21,5 +23,12 @@ author_profile: true
 
 [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
 
-- Segemntal Duplication Plots ([segDupPlots](https://github.com/mrvollger/segDupPlots)) is for visualizing resolved and unresolved SDs in a human _de novo_ assembly.
+- <img src="https://raw.githubusercontent.com/mrvollger/NucFreq/master/imgs/image.png" alt="SafFire" width="200"  style="float: left;"/>
+
+[NucFreq](https://github.com/mrvollger/NucFreq) to visualize collapses in _de novo_ assemblies.
+
 - [Ideogram](https://github.com/mrvollger/ideogram) is for visualizing _de novo_ assemblies against a karyotype of the human reference.
+
+## Tutorials
+
+- A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quality snakemake workflows ([slides](https://mrvollger.github.io/SmkTemplate/slides)).
