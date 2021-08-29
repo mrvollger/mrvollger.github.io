@@ -25,7 +25,7 @@ Segemntal Duplication Assembler
   [SDA](https://mrvollger.github.io/SDA/){: .btn .btn--info .btn--large} 
   "
 
-feature_row1-2:
+feature_rustybam:
 
 - image_path: 
   alt: ""
@@ -111,7 +111,7 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 
 {% include feature_row id="feature_sda" type="center" %}
 
-{% include feature_row id="feature_row1-2" type="center" %}
+{% include feature_row id="feature_rustybam" type="center" %}
 
 {% include feature_row id="feature_row1-3" type="center" %}
 
