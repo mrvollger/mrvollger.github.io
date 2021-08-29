@@ -15,17 +15,16 @@ author_profile: true
 
 ## Visualization
 
-- <img src="https://mrvollger.github.io/SafFire/SafFire_logo.svg" alt="SafFire" width="50" style="float: left;"/>
+<img src="https://mrvollger.github.io/SafFire/SafFire_logo.svg" alt="SafFire" width="50" align="right"/>
 
-[SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats vizualizations.
+- [SafFire](https://mrvollger.github.io/SafFire/) is for genome wide miropeats visualizations.
 
-- <img src="https://raw.githubusercontent.com/mrvollger/StainedGlass/main/images/chr8.png" alt="SafFire" width="200"  style="float: left;"/>
+- [StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
+  <img src="https://raw.githubusercontent.com/mrvollger/StainedGlass/main/images/chr8.png" alt="SafFire" width="200"  align="right"/>
 
-[StainedGlass](https://mrvollger.github.io/StainedGlass/) makes colorful dot-plots from alignments.
+- [NucFreq](https://github.com/mrvollger/NucFreq) to visualize collapses in _de novo_ assemblies.
 
-- <img src="https://raw.githubusercontent.com/mrvollger/NucFreq/master/imgs/image.png" alt="SafFire" width="200"  style="float: left;"/>
-
-[NucFreq](https://github.com/mrvollger/NucFreq) to visualize collapses in _de novo_ assemblies.
+ <img src="https://raw.githubusercontent.com/mrvollger/NucFreq/master/imgs/image.png" alt="SafFire" width="200"  align="right"/>
 
 - [Ideogram](https://github.com/mrvollger/ideogram) is for visualizing _de novo_ assemblies against a karyotype of the human reference.
 
