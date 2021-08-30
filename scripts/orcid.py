@@ -35,7 +35,7 @@ def is_me(string):
 
 def get_citation_count(entry):
     cross_ref = works.doi(entry["doi"])
-    return cross_ref["citation_count"]
+    return cross_ref["is-referenced-by-count"]
     # return (
     #    f"""http://id.crossref.org/prefix/{cross_ref["prefix"]}"""
     #    + f"""{cross_ref["is-referenced-by-count"]}"""
