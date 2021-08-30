@@ -2,8 +2,11 @@ import bibtexparser
 import argparse
 import re
 from crossref.restful import Works
+import logging
 
+logging.basicConfig()
 works = Works()
+args = None
 
 
 def clean_text(text):
@@ -88,6 +91,13 @@ def get_title(entry):
     return clean_text(entry["title"])
 
 
+def get_year(entry):
+    if "Mitchell R. Vollger" in make_author_string(entry, args).split(",")[0]:
+        logging.warning(f'First author {entry["title"]}')
+        return "First author publications"
+    return entry["year"]
+
+
 def get_html_altmetrics(entry):
     return f"""<td style="text-align:left;"> <div data-badge-popover='right' data-badge-type='donut' data-doi='{entry["doi"]}' data-hide-no-mentions='true' class='altmetric-embed'></div> </td>"""
 
@@ -105,7 +115,7 @@ def get_html_pub(entry, args):
         + f"""<a class='anchor' id='{get_title(entry)}'></a>"""
         + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{get_title(entry)}</a></span>"""
         + f"""<br>{make_author_string(entry, args)} """
-        + f"""<i class="journal"><b>{get_journal(entry)}</b></i>. """
+        + f"""<i class="journal"><b>{get_journal(entry)}</b></i>. {entry["year"]}."""
         + f"""<p class="cite">Cited in Crossref {get_citation_count(entry)} times</p>"""
         + f"""</td>"""
     )
@@ -116,7 +126,7 @@ def make_html_table_header(entry, end=False):
     end_header = "</tbody></table>\n"
     table_header = (
         """<table class="publication-table">"""
-        + f"""<h1 id="{entry["year"]}"><caption>{entry["year"]}</caption></h1>"""
+        + f"""<h1 id="{get_year(entry)}"><caption>{get_year(entry)}</caption></h1>"""
         + """<thead><tr>"""
         + """<th style="text-align:left;"> altmetric_badge </th>"""
         + """<th style="text-align:left;"> citation </th>"""
@@ -129,16 +139,16 @@ def make_html_table_header(entry, end=False):
 
 def make_pub_html(bibtex_database, args):
     entries = sorted(
-        bibtex_database.entries, key=lambda entry: entry["year"], reverse=True
+        bibtex_database.entries, key=lambda entry: get_year(entry), reverse=True
     )
     html = ""
     year = None
     for entry in entries:
-        if entry["year"] != year:
+        if get_year(entry) != year:
             if year is not None:
                 html += make_html_table_header(entry, end=True)
             html += make_html_table_header(entry)
-        year = entry["year"]
+        year = get_year(entry)
         html += (
             f"<tr>\n{get_html_altmetrics(entry)}\n{get_html_pub(entry, args)}\n</tr>\n"
         )
