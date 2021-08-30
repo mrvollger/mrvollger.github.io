@@ -2,7 +2,8 @@
 title: "Publications"
 layout: single
 toc: true
-toc_label: "Publication year"
+toc_label: "My works"
+toc_icon: "fas fa-scroll"
 permalink: /publications/
 header:
   overlay_image: /assets/images/header.jpg
