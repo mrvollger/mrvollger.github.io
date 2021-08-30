@@ -2,19 +2,28 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: About me
-layout: home
+title: Welcome!
+layout: splash
 author_profile: true
-excerpt: "
-Hello, I am **Mitchell** and I am postdoctoral researcher in Evan E. Eichler's [lab](https://eichlerlab.gs.washington.edu) at the University of Washington. 
-"
+excerpt: ""
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.7
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 
+feature_row:
+  - image_path: #"/assets/images/bio-photo.jpg"
+    alt: ""
+    title: ""
+    excerpt: "[About me](/about){: .btn .btn--primary .btn--x-large}"
+  - image_path: #"/assets/images/tbc1d3.png"
+    alt: ""
+    title: ""
+    excerpt: "[Works](/publications){: .btn .btn--primary .btn--x-large}"
+  - image_path: #"/assets/images/SDA.png"
+    alt: ""
+    title: ""
+    excerpt: "[Software](/software){: .btn .btn--primary .btn--x-large} "
 ---
 
-## My history
-
-In 2015 I graduated from Princeton with B.S.E. in computer science and a minor in quantitative and computational biology. During my time at Princeton, I worked in the lab of Alison Gammie improving the reference genome for the yeast strain W303. In 2016 I joined the Department of Genome Sciences at the University of Washington in pursuit of a PhD, ultimately joining the lab of Evan E. Eichler to study the sequence and assembly of segmental duplications in humans and nonhuman primates. Currently I am continuing my work in the Eichler now as a postdoctoral fellow. To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes).
+{% include feature_row id="feature_row" %}
