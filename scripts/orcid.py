@@ -1,5 +1,11 @@
 import bibtexparser
 import argparse
+import re
+
+
+def clean_text(text):
+    text = re.sub(r"{|}", "", text)
+    return text
 
 
 def is_me(string):
@@ -29,7 +35,7 @@ def make_author_string(entry, args):
     """
     authors = [
         author.strip()
-        for author in entry["author"].split(" and")
+        for author in clean_text(entry["author"]).split(" and")
         if len(author.strip()) > 0
     ]
     max_n = args.authors
@@ -63,6 +69,10 @@ def make_author_string(entry, args):
     return rtn
 
 
+def get_title(entry):
+    return clean_text(entry["title"])
+
+
 def get_html_altmetrics(entry):
     return f"""<td style="text-align:left;"> <div data-badge-popover='right' data-badge-type='donut' data-doi='{entry["doi"]}' data-hide-no-mentions='true' class='altmetric-embed'></div> </td>"""
 
@@ -77,8 +87,8 @@ def get_journal(entry):
 def get_html_pub(entry, args):
     html = (
         f"""<td style="text-align:left;">"""
-        + f"""<a class='anchor' id='{entry["title"]}'></a>"""
-        + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{entry["title"]}</a></span>"""
+        + f"""<a class='anchor' id='{get_title(entry)}'></a>"""
+        + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{get_title(entry)}</a></span>"""
         + f"""<br>{make_author_string(entry, args)} """
         + f"""<i>{get_journal(entry)}</i>. """
         + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link.</a></span>"""
