@@ -59,6 +59,11 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:mrvollger@gmail.com
 
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/mrvollger"
 
 
 footer:
