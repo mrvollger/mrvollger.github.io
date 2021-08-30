@@ -10,7 +10,7 @@ Hello, I am **Mitchell** and I am postdoctoral researcher in Evan E. Eichler's [
 "
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: 0.35
+  overlay_filter: 0.7
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 
 ---

@@ -9,7 +9,7 @@ header:
 author_profile: true
 ---
 
-## Email form
+## Contact me
 
 <form
   action="https://formspree.io/f/xgerrvyo"
@@ -29,5 +29,6 @@ author_profile: true
 
 ## Additional information
 
+Full name: Mitchell Robert Vollger
 Website: **[mrvollger.github.io](mrvollger.github.io)**  
 Phone: **(707) 407-8732**

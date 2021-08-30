@@ -1,4 +1,4 @@
-title: Mitchell R. Vollger
+title: Mitchell R. Vollger, Ph.D.
 email: mrvollger@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Doctoral candidate in Evan E. Eichler's lab.
@@ -36,7 +36,7 @@ plugins:
 
 
 author:
-  name   : "Mitchell Robert Vollger"
+  name   : "Mitchell R. Vollger"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Postdoctoral fellow"
   links:
