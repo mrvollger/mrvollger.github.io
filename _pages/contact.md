@@ -29,6 +29,8 @@ author_profile: true
 
 ## Additional information
 
-Full name: Mitchell Robert Vollger
-Website: **[mrvollger.github.io](mrvollger.github.io)**  
+Full name: **Mitchell Robert Vollger**
+
+Website: **[mrvollger.github.io](mrvollger.github.io)**
+
 Phone: **(707) 407-8732**
