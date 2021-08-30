@@ -6,6 +6,9 @@
 
 // set highlight color to aqua - override contrast skin default of red
 $primary-color: #02548f !default;
+// header colors
+$masthead-link-color: #f99820;
+//$base00: #f99820;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
