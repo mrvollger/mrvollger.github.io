@@ -1,6 +1,6 @@
 ---
 title: "_Curriculum vitae_"
-classes: "wide"
+classes: wide
 layout: single
 sitemap: false
 author_profile: true
