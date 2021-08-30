@@ -1,6 +1,9 @@
 import bibtexparser
 import argparse
 import re
+from crossref.restful import Works
+
+works = Works()
 
 
 def clean_text(text):
@@ -28,6 +31,15 @@ def is_me(string):
         ]:
             return False
     return True
+
+
+def get_citation_count(entry):
+    cross_ref = works.doi(entry["doi"])
+    return cross_ref["citation_count"]
+    # return (
+    #    f"""http://id.crossref.org/prefix/{cross_ref["prefix"]}"""
+    #    + f"""{cross_ref["is-referenced-by-count"]}"""
+    # )
 
 
 def make_author_string(entry, args):
@@ -92,7 +104,8 @@ def get_html_pub(entry, args):
         + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{get_title(entry)}</a></span>"""
         + f"""<br>{make_author_string(entry, args)} """
         + f"""<i>{get_journal(entry)}</i>. """
-        + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link.</a></span>"""
+        + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link. </a></span>"""
+        + f"""{get_citation_count(entry)}"""
         + f"""</td>"""
     )
     return html
@@ -102,7 +115,7 @@ def make_html_table_header(entry, end=False):
     end_header = "</tbody></table>\n"
     table_header = (
         """<table class="publication-table">"""
-        + f"""<caption>{entry["year"]}</caption>"""
+        + f"""<h1 id="{entry["year"]}"><caption>{entry["year"]}</caption></h1>"""
         + """<thead><tr>"""
         + """<th style="text-align:left;"> altmetric_badge </th>"""
         + """<th style="text-align:left;"> citation </th>"""
