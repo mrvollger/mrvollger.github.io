@@ -1,5 +1,5 @@
 ---
-title: "Curriculum vitae"
+title: "_Curriculum vitae_"
 layout: archive
 permalink: /CV/
 author_profile: true
@@ -9,5 +9,6 @@ header:
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 ---
 
-[CV](https://github.com/mrvollger/CV/blob/master/CV.pdf)  
-[tex](https://github.com/mrvollger/CV)
+### Mitchell R. Vollger's [_Curriculum vitae_](https://github.com/mrvollger/CV/blob/master/CV.pdf)
+
+[Code](https://github.com/mrvollger/CV)
