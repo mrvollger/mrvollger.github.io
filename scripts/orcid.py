@@ -105,7 +105,7 @@ def get_html_pub(entry, args):
         + f"""<br>{make_author_string(entry, args)} """
         + f"""<i>{get_journal(entry)}</i>. """
         + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link. </a></span>"""
-        + f"""{get_citation_count(entry)}"""
+        + f"""<p class="cite">Cited in Crossref {get_citation_count(entry)} times</p>"""
         + f"""</td>"""
     )
     return html
