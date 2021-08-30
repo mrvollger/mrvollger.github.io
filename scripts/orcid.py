@@ -79,7 +79,7 @@ def get_html_pub(entry, args):
         f"""<td style="text-align:left;">"""
         + f"""<a class='anchor' id='{entry["title"]}'></a>"""
         + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{entry["title"]}</a></span>"""
-        + f"""<br>{make_author_string(entry, args)}<br>"""
+        + f"""<br>{make_author_string(entry, args)} """
         + f"""<i>{get_journal(entry)}</i>. """
         + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link.</a></span>"""
         + f"""</td>"""
