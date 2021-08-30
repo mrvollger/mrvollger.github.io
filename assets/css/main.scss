@@ -24,7 +24,7 @@ $primary-color: #02548f !default;
 
 //  Publications page
 .publication-table .pub-title {
-  /* font-weight: bold; */
+  font-weight: bold;
   font-size: 1em;
 }
 
@@ -49,4 +49,19 @@ $primary-color: #02548f !default;
 
 .publication-featured a {
   color: #028f6a;
+}
+
+/* unvisited link */
+a:link {
+  color: #02548f;
+}
+
+/* visited link */
+a:visited {
+  color: #02548f;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
 }

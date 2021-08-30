@@ -8,9 +8,7 @@ author_profile: true
 <h1 style="color:black;font-size:40px;"></h1> 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
-<small>
 {% include pubs.html %}
-</small>
 
 You can find a complete list of my publications at:
 
