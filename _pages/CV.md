@@ -1,14 +1,18 @@
 ---
 title: "_Curriculum vitae_"
-layout: archive
-permalink: /CV/
+classes: "wide"
+layout: single
+sitemap: false
 author_profile: true
+permalink: /CV/
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: 0.35
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 ---
 
-### Mitchell R. Vollger's [_Curriculum vitae_](https://github.com/mrvollger/CV/blob/master/CV.pdf)
+### Mitchell R. Vollger's [_Curriculum vitae_](https://github.com/mrvollger/CV/raw/master/CV.pdf)
+
+<embed src="/assets/documents/CV.pdf" type="application/pdf" />
 
 [Code](https://github.com/mrvollger/CV)
