@@ -129,5 +129,5 @@ tag_archive:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-1234567-8"
+    tracking_id: "G-JR195G0SX3"
     anonymize_ip: false # default
