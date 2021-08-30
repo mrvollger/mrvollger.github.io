@@ -13,10 +13,6 @@ author_profile: true
 
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 
-<div markdown="0">
-  <iframe src="https://mrvollger.github.io/SafFire" width="560" height="315" frameborder="0" scrolling="yes" style="display:block; margin: 0 auto;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-
 {% include pubs.html %}
 
 <p class="cite">Citation counts were collected using the Crossref API.</p>
