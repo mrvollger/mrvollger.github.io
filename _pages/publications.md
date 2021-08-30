@@ -17,6 +17,8 @@ author_profile: true
 
 {% include pubs.html %}
 
+<p class="cite">Citation counts were collected using the Crossref API.</p>
+
 <!--
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
