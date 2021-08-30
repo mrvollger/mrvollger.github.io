@@ -1,19 +1,13 @@
 ---
-title:  "CV"
+title: "Curriculum vitae"
 layout: archive
 permalink: /CV/
 author_profile: true
+header:
+  overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.35
+  caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 ---
 
-
-## Contact information 
-Email: __mvollger@uw.edu__    
-Website: __[mrvollger.github.io](mrvollger.github.io)__    
-Phone: __(707) 407-8732__     
-Address: __William H. Foege Hall, 3720 15th Ave NE, Seattle, WA 98195__   
-
-## Next section 
-
-
-[CV](https://github.com/mrvollger/CV/blob/master/CV.pdf)   
+[CV](https://github.com/mrvollger/CV/blob/master/CV.pdf)  
 [tex](https://github.com/mrvollger/CV)

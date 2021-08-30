@@ -6,6 +6,7 @@ toc_label: "Publication year"
 permalink: /publications/
 header:
   overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.35
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 author_profile: true
 ---
