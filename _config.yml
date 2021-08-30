@@ -131,3 +131,8 @@ analytics:
   google:
     tracking_id: "G-JR195G0SX3"
     anonymize_ip: false # default
+
+
+# twitter feed? 
+twitter:
+  username: "mrvollger"
