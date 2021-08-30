@@ -124,7 +124,7 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 {% include feature_row id="feature_saffire" type="right" %}
 
 <div markdown="0">
-  <iframe src="https://mrvollger.github.io/SafFire" width="1200" height="400" frameborder="0" scrolling="yes" style="display:block; margin: 0 auto;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  <iframe src="https://mrvollger.github.io/SafFire" width="900" height="450" frameborder="0" scrolling="yes" style="display:block; margin: 0 auto;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
 {% include feature_row id="feature_nucfreq" type="center" %}
