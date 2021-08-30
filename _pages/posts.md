@@ -1,6 +1,6 @@
 ---
 title: "Posts"
-layout: archive
+layout: posts
 permalink: /posts/
 ---
 

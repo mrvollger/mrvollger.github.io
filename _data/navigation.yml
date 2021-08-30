@@ -7,7 +7,7 @@ main:
     url: /software/
   - title: "CV"
     url: /CV/
-  - title: "Contact"
-    url: /contact/
   - title: "Posts"
     url: /posts/
+  - title: "Contact"
+    url: /contact/
