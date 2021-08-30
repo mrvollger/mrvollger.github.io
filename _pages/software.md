@@ -1,12 +1,12 @@
 ---
 layout: single
-#class: wide
 permalink: /software/
 author_profile: true
 toc: true
 toc_label: "Software"
 header:
   overlay_image: /assets/images/header.jpg
+  overlay_filter: 0.35
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
   actions:
     - label: "GitHub"
