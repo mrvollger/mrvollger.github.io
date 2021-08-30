@@ -78,6 +78,8 @@ def make_author_string(entry, args):
             rtn += ", <i>et al</i>."
         else:
             rtn += ", et al."
+    else:
+        rtn += "."
 
     return rtn
 
@@ -92,9 +94,9 @@ def get_html_altmetrics(entry):
 
 def get_journal(entry):
     if "journal" in entry:
-        return entry["journal"]
+        return clean_text(entry["journal"])
     else:
-        return "preprint"
+        return "Preprint"
 
 
 def get_html_pub(entry, args):
@@ -103,8 +105,7 @@ def get_html_pub(entry, args):
         + f"""<a class='anchor' id='{get_title(entry)}'></a>"""
         + f"""<span class='pub-title'><a href='https://doi.org/{entry["doi"]}'>{get_title(entry)}</a></span>"""
         + f"""<br>{make_author_string(entry, args)} """
-        + f"""<i>{get_journal(entry)}</i>. """
-        + f"""<span class='publication-extra'><a href='https://doi.org/{entry["doi"]}'>Paper link. </a></span>"""
+        + f"""<i class="journal"><b>{get_journal(entry)}</b></i>. """
         + f"""<p class="cite">Cited in Crossref {get_citation_count(entry)} times</p>"""
         + f"""</td>"""
     )
