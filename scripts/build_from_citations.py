@@ -20,18 +20,9 @@ def is_me(string):
     Given a string, return True if it matches the name of the author of the
     script.
     """
+    allowed_words = args.me.lower().split()
     for word in string.lower().split():
-        if word not in [
-            "mitchell",
-            "m",
-            "m.",
-            "robert",
-            "r",
-            "r.",
-            "vollger",
-            "mr",
-            "m.r.",
-        ]:
+        if word not in allowed_words:
             return False
     return True
 
@@ -59,7 +50,7 @@ def make_author_string(entry, args):
     for idx, author in enumerate(authors):
         me = is_me(author)
         if me:
-            author = "Mitchell R. Vollger"
+            author = args.me
             if args.md:
                 author = "*" + author + "*"
             if args.html:
@@ -92,7 +83,7 @@ def get_title(entry):
 
 
 def get_year(entry):
-    if "Mitchell R. Vollger" in make_author_string(entry, args).split(",")[0]:
+    if args.me in make_author_string(entry, args).split(",")[0]:
         logging.warning(f'First author {entry["title"]}')
         return "First author publications"
     return entry["year"]
@@ -160,9 +151,11 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--md", action="store_true")
 parser.add_argument("--html", action="store_true")
 parser.add_argument("--authors", help="number of authors to print", type=int, default=5)
+parser.add_argument("--me", default="Mitchell R. Vollger")
+parser.add_argument("bib", default="bibTex file to draw from")
 args = parser.parse_args()
 
-with open("scripts/works.bib") as bibtex_file:
+with open(args.bib) as bibtex_file:
     bibtex_database = bibtexparser.load(bibtex_file)
     if args.html:
         print(make_pub_html(bibtex_database, args))

@@ -4,11 +4,9 @@ layout: posts
 permalink: /year-archive/
 ---
 
-<!-- 
 {% for post in site.posts %}
 {% include archive-single.html %}
 {% endfor %}
-
 
 <ul>
   {% for post in site.posts %}
@@ -20,4 +18,3 @@ permalink: /year-archive/
     </li>
   {% endfor %}
 </ul>
---!>
