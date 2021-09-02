@@ -3,6 +3,9 @@ import argparse
 import re
 from crossref.restful import Works
 import logging
+from datetime import date
+
+today_str = date.today().strftime("%Y-%m-%d")
 
 logging.basicConfig()
 works = Works()
@@ -144,6 +147,8 @@ def make_pub_html(bibtex_database, args):
             f"<tr>\n{get_html_altmetrics(entry)}\n{get_html_pub(entry, args)}\n</tr>\n"
         )
     html += make_html_table_header(entry, end=True)
+    html += '<p class="cite">Citation counts were collected using the Crossref API.</p>'
+    html += f"""<p class="cite">Last updated on {today_str}.</p>"""
     return html
 
 
