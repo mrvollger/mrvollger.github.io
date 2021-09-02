@@ -148,7 +148,7 @@ def make_pub_html(bibtex_database, args):
         )
     html += make_html_table_header(entry, end=True)
     html += '<p class="cite">Citation counts were collected using the Crossref API.</p>'
-    html += f"""<p class="cite">Last updated on {today_str}.</p>"""
+    html += f"""<p class="cite">This page was last updated on {today_str}.</p>"""
     return html
 
 
