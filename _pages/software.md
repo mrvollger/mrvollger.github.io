@@ -17,9 +17,9 @@ feature_sda:
 
 - image_path: "/assets/images/SDA.png"
   alt: ""
-  title: "Segemntal Duplication Assembler (SDA)"
+  title: "Segmental Duplication Assembler (SDA)"
   excerpt: "
-Segemntal Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.
+Segmental Duplication Assembler ([SDA](https://mrvollger.github.io/SDA/)) is for identifying and resolving collapsed SDs.
 <br/>
 [SDA](https://mrvollger.github.io/SDA/){: .btn .btn--info .btn--large} 
 <br/>
