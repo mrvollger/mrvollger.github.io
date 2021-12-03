@@ -58,6 +58,8 @@ def make_author_string(entry, args):
                 author = "*" + author + "*"
             if args.html:
                 author = "<b>" + author + "</b>"
+            if args.tex:
+                author = "\\textbf{" + author + "}"
 
         if idx < max_n and idx < len(authors):
             rtn += author + ", "
@@ -152,9 +154,32 @@ def make_pub_html(bibtex_database, args):
     return html
 
 
+# \cvitem{\textbf{---}}{ Logsdon GA, \textbf{Vollger MR}, Hsieh P, Mao Y, Liskovykh MA, Koren S, Nurk S, Mercuri L, Dishuck PC, Rhie A, et al. 2021. The structure, function and evolution of a complete human chromosome 8. Nature 593: 101–107. https://www.nature.com/articles/s41586-021-03420-7 (Accessed May 11, 2021).}
+def make_pub_tex(bibtex_database, args):
+    entries = sorted(
+        bibtex_database.entries, key=lambda entry: get_year(entry), reverse=True
+    )
+    tex = ""
+    see_not_first = False
+    for entry in entries:
+        if get_year(entry) != "First author publications" and not see_not_first:
+            see_not_first = True
+            tex += "\n\subsection{\\textbf{Collaborative author}}\n\n\n"
+
+        tex += "\cvitem{\\textbf{---}}{"
+        tex += make_author_string(entry, args) + " "
+        tex += entry["year"] + ". "
+        tex += get_title(entry) + ". "
+        tex += "\emph{" + get_journal(entry) + "}. "
+        tex += "\href{" + f"https://doi.org/{entry['doi']}" + "}{" + entry["doi"] + "}"
+        tex += "}\n\n"
+    return tex
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--md", action="store_true")
 parser.add_argument("--html", action="store_true")
+parser.add_argument("--tex", action="store_true")
 parser.add_argument("--authors", help="number of authors to print", type=int, default=5)
 parser.add_argument("--me", default="Mitchell R. Vollger")
 parser.add_argument("bib", default="bibTex file to draw from")
@@ -164,3 +189,5 @@ with open(args.bib) as bibtex_file:
     bibtex_database = bibtexparser.load(bibtex_file)
     if args.html:
         print(make_pub_html(bibtex_database, args))
+    if args.tex:
+        print(make_pub_tex(bibtex_database, args))
