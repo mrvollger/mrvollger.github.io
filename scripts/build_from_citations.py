@@ -67,7 +67,7 @@ def make_author_string(entry, args):
             if idx == max_n:
                 rtn += author + ", "
             else:
-                rtn += "... " + author + "..."
+                rtn += "..." + author + "..."
 
     rtn = rtn.strip().strip(",")
     if max_n < len(authors):
@@ -102,7 +102,7 @@ def get_journal(entry):
     if "journal" in entry:
         return clean_text(entry["journal"])
     else:
-        return "Preprint"
+        return "bioRxiv"  # "Preprint"
 
 
 def get_html_pub(entry, args):
@@ -159,7 +159,7 @@ def make_pub_tex(bibtex_database, args):
     entries = sorted(
         bibtex_database.entries, key=lambda entry: get_year(entry), reverse=True
     )
-    tex = ""
+    tex = "\subsection{\\textbf{First author}}\n\n\n"
     see_not_first = False
     for entry in entries:
         if get_year(entry) != "First author publications" and not see_not_first:
@@ -168,10 +168,21 @@ def make_pub_tex(bibtex_database, args):
 
         tex += "\cvitem{\\textbf{---}}{"
         tex += make_author_string(entry, args) + " "
-        tex += entry["year"] + ". "
         tex += get_title(entry) + ". "
         tex += "\emph{" + get_journal(entry) + "}. "
-        tex += "\href{" + f"https://doi.org/{entry['doi']}" + "}{" + entry["doi"] + "}"
+        tex += entry["year"] + ". "
+        tex += (
+            "\\textcolor{blue}{\href{"
+            + f"https://doi.org/{entry['doi']}"
+            + "}{"
+            + entry["doi"]
+            + "}}"
+        )
+        # tex += (
+        #    " \\textcolor{gray}{"
+        #    + f"Cited in Crossref {get_citation_count(entry)} times"
+        #    + "}"
+        # )
         tex += "}\n\n"
     return tex
 
@@ -180,7 +191,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--md", action="store_true")
 parser.add_argument("--html", action="store_true")
 parser.add_argument("--tex", action="store_true")
-parser.add_argument("--authors", help="number of authors to print", type=int, default=5)
+parser.add_argument("--authors", help="number of authors to print", type=int, default=6)
 parser.add_argument("--me", default="Mitchell R. Vollger")
 parser.add_argument("bib", default="bibTex file to draw from")
 args = parser.parse_args()
