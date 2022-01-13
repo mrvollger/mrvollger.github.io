@@ -3,3 +3,4 @@ _site/**
 .vscode/**
 .jekyll-metadata
 assets/images/bio-photo_800.ai
+.ruby-version
