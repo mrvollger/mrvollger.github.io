@@ -24,6 +24,7 @@ def is_me(string):
     script.
     """
     allowed_words = args.me.lower().split()
+    allowed_words += [x.strip(".") for x in allowed_words]
     for word in string.lower().split():
         if word not in allowed_words:
             return False
