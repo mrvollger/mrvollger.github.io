@@ -51,8 +51,10 @@ def make_author_string(entry, args):
     ]
     max_n = args.authors
     rtn = ""
+    is_last = False
     for idx, author in enumerate(authors):
         me = is_me(author)
+        is_last = (idx == len(authors) - 1) and me
         if me:
             author = args.me
             if args.md:
@@ -68,10 +70,13 @@ def make_author_string(entry, args):
             if idx == max_n:
                 rtn += author + ", "
             else:
-                rtn += "..." + author + "..."
+                if is_last:
+                    rtn += "... " + author
+                else:
+                    rtn += "... " + author + "..."
 
     rtn = rtn.strip().strip(",")
-    if max_n < len(authors):
+    if max_n < len(authors) and not is_last:
         if args.md:
             rtn += ", ~et al~."
         elif args.html:
@@ -91,7 +96,10 @@ def get_title(entry):
 def get_year(entry):
     if args.me in make_author_string(entry, args).split(",")[0]:
         logging.warning(f'First author {entry["title"]}')
-        return "First author publications"
+        return "First author"
+    if args.me in make_author_string(entry, args).split(",")[-1]:
+        logging.warning(f'Last author {entry["title"]}')
+        return "Corresponding author"
     return entry["year"]
 
 
