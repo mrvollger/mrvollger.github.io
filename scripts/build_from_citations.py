@@ -14,9 +14,21 @@ args = None
 
 def clean_text(text):
     text = re.sub(r"{|}", "", text)
-    text = " ".join(text.split())
     return text
 
+def clean_author(text):
+    show=False
+    if "," in text:
+        logging.warning(f"Found comma in author {text}")
+        show = True
+        
+    words = text.split()
+    # last, first case
+    if words[0].endswith(","):
+        words = words[1:] + [words[0].strip(",")]
+    text = " ".join(words).strip()
+    if show: logging.warning(f"Fixed author {text}")
+    return text
 
 def is_me(string):
     """
@@ -45,7 +57,7 @@ def make_author_string(entry, args):
     Given a bibtexparser entry, return a string of the form "Firstname Lastname"
     """
     authors = [
-        author.strip()
+        clean_author(author)
         for author in clean_text(entry["author"]).split(" and")
         if len(author.strip()) > 0
     ]
