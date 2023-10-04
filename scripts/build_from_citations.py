@@ -8,6 +8,7 @@ from datetime import date
 today_str = date.today().strftime("%Y-%m-%d")
 
 logging.basicConfig()
+logging.getLogger().setLevel(logging.INFO)
 works = Works()
 args = None
 
@@ -16,19 +17,22 @@ def clean_text(text):
     text = re.sub(r"{|}", "", text)
     return text
 
+
 def clean_author(text):
-    show=False
+    show = False
     if "," in text:
         logging.warning(f"Found comma in author {text}")
         show = True
-        
+
     words = text.split()
     # last, first case
     if words[0].endswith(","):
         words = words[1:] + [words[0].strip(",")]
     text = " ".join(words).strip()
-    if show: logging.warning(f"Fixed author {text}")
+    if show:
+        logging.warning(f"Fixed author {text}")
     return text
+
 
 def is_me(string):
     """
@@ -180,12 +184,25 @@ def make_pub_tex(bibtex_database, args):
     entries = sorted(
         bibtex_database.entries, key=lambda entry: get_year(entry), reverse=True
     )
-    tex = "\subsection{\\textbf{First author}}\n\n\n"
-    see_not_first = False
+    tex = ""
+    year = None
+    first_header = True
+    last_header = True
+    other_header = True
     for entry in entries:
-        if get_year(entry) != "First author publications" and not see_not_first:
-            see_not_first = True
+        cur_year = get_year(entry)
+        if cur_year == "First author" and first_header:
+            logging.info("Adding first author header")
+            tex += "\subsection{\\textbf{First author}}\n\n\n"
+            first_header = False
+        elif get_year(entry) == "Corresponding author" and last_header and not first_header:
+            logging.info("Adding corresponding author header")
+            tex += "\n\subsection{\\textbf{Corresponding author}}\n\n\n"
+            last_header = False
+        elif other_header and not first_header and not last_header:
+            logging.info("Adding collaborative author header")
             tex += "\n\subsection{\\textbf{Collaborative author}}\n\n\n"
+            other_header = False
 
         tex += "\cvitem{\\textbf{---}}{"
         tex += make_author_string(entry, args) + " "
