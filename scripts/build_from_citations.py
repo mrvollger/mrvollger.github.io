@@ -4,6 +4,7 @@ import re
 from crossref.restful import Works
 import logging
 from datetime import date
+import sys
 
 today_str = date.today().strftime("%Y-%m-%d")
 
@@ -129,6 +130,16 @@ def get_journal(entry):
     else:
         return "bioRxiv"  # "Preprint"
 
+def get_pages(entry):
+    if "pages" in entry and "number" in entry and "volume" in entry:
+        text = entry["pages"] + "," + entry["number"] + "," + entry["volume"]
+    elif "pages" in entry:
+        text = entry["pages"]
+    elif "number" in entry and "volume" in entry:
+        text = entry["number"] + "," + entry["volume"]
+    else:
+        text= "Online"
+    return clean_text(text)
 
 def get_html_pub(entry, args):
     html = (
@@ -208,6 +219,7 @@ def make_pub_tex(bibtex_database, args):
         tex += make_author_string(entry, args) + " "
         tex += get_title(entry) + ". "
         tex += "\emph{" + get_journal(entry) + "}. "
+        tex += "\emph{" + get_pages(entry) + "}. "
         tex += entry["year"] + ". "
         tex += (
             "\\textcolor{blue}{\href{"
@@ -216,6 +228,7 @@ def make_pub_tex(bibtex_database, args):
             + entry["doi"]
             + "}}"
         )
+        get_pages(entry)
         # tex += (
         #    " \\textcolor{gray}{"
         #    + f"Cited in Crossref {get_citation_count(entry)} times"
