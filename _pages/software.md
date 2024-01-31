@@ -13,6 +13,18 @@ header:
       url: "https://github.com/mrvollger"
 title: "Software"
 
+feature_fibertools:
+
+- image_path: "/assets/images/fiber_tools_grey.png"
+  alt: ""
+  title: "fibertools"
+  excerpt: "
+The toolkit for processing Fiber-seq data.
+[fibertools](https://github.com/fiberseq/fibertools-rs){: .btn .btn--info .btn--large} 
+<br/>
+"
+
+
 feature_sda:
 
 - image_path: "/assets/images/SDA.png"
@@ -110,6 +122,8 @@ A [template](https://mrvollger.github.io/SmkTemplate/) for for publication quali
 ---
 
 # Tools
+
+{% include feature_row id="feature_fibertools" type="left" %}
 
 {% include feature_row id="feature_sda" type="right" %}
 
