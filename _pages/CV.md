@@ -11,8 +11,8 @@ header:
   caption: "Photo credit: [Mitchell R. Vollger](https://mrvollger.github.io/)"
 ---
 
-### Mitchell R. Vollger's [_Curriculum vitae_](https://github.com/mrvollger/CV/raw/master/CV.pdf)
+### Mitchell R. Vollger's [_Curriculum vitae_](https://github.com/mrvollger/mrvollger.github.io/raw/master/CV/Mitchell-R-Vollger-CV.pdf)
 
-<embed src="/assets/documents/CV.pdf" type="application/pdf" />
+<embed src="/CV/Mitchell-R-Vollger-CV.pdf" type="application/pdf" />
 
 [Code](https://github.com/mrvollger/CV)
