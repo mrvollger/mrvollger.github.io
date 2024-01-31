@@ -15,4 +15,4 @@ header:
 
 <embed src="/CV/Mitchell-R-Vollger-CV.pdf" type="application/pdf" />
 
-[Code](https://github.com/mrvollger/CV)
+[Code](https://github.com/mrvollger/mrvollger.github.io/tree/master/CV)
