@@ -1,0 +1,313 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+\newcommand\Colorhref[3][cyan]{\href{#2}{\small\color{#1}#3}}
+
+\firstname{Mitchell R.} % Your first name
+\familyname{Vollger} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{123 Broadway}{City, State 12345}
+%\mobile{(000) 111 1111}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+%\email{john@smith.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument %is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%\extrainfo{additional information}
+
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+% Print the CV title
+\makecvtitle
+
+\section{\textbf{Personal Information}}
+
+\cvitem{Legal name}{\hspace{4 mm} Mitchell Robert Vollger}
+%\cvitem{Birth}{\hspace{4 mm} 3 November 1992, Carson City (Nevada)}
+\cvitem{Place of Birth}{\hspace{4 mm} Carson City, Nevada, USA}
+
+\subsection{\textbf{Email}}{
+    \cvitem{Primary}{\hspace{4 mm}mvollger[at]uw.edu}
+    \cvitem{Secondary}{\hspace{4 mm}mrvollger[at]gmail.com}
+}
+
+\subsection{\textbf{Phone}}{
+    \cvitem{Mobile}{\hspace{4 mm}(707) 407-8732}
+}
+\subsection{\textbf{Address}}{
+    \cvitem{Primary}{\hspace{4 mm}{1214 141st PL SW, Lynnwood Washington, 98087}
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Education}}
+
+%\texttt{\href{http://www.google.com}}
+
+\cventry{Sep 2016 -- March 2021}{Ph.D. in Genome Sciences}{University of Washington}{Seattle, Washington}{GPA -- 3.86}{}  % Arguments not required can be left empty
+
+\cventry{Sep. 2011 -- June 2015}{B.S.E. in Computer Science Engineering}{Princeton University}{Princeton, New Jersey}{\textit{GPA -- 3.13}. Student of the \textcolor{blue}{\small{\href{http://www.princeton.edu/integratedscience/}{Integrated Science Curriculum}}}}{}  % Arguments not required can be left empty
+
+\cventry{Sep. 2011 -- June 2015}{Certificate in \textcolor{blue}{\href{http://www.princeton.edu/integratedscience/certificate/}{Quantitative and Computational Biology}}}{Princeton University}{Princeton, New Jersey}{\textit{GPA -- 3.48}}{}  % Arguments not required can be left empty
+
+\cventry{Sep. 2008 -- June 2011}{Associate of Arts Degree in Mathematics}{College of the Redwoods}{Eureka, California}{\textit{GPA -- 4.00}}{}
+
+\cventry{Sep. 2008-- June 2011}{Associate of Arts Degree in Science}{College of the Redwoods}{Eureka, California}{\textit{GPA -- 4.00}}{}
+
+
+\section{\textbf{Postdoctoral Experience}}
+\cventry{April 2022 -- Present}{Postdoctoral Scholar in Medical Genetics}{University of Washington}{Seattle, Washington}{Lab of Andrew B. Stergachis}{}  % Arguments not required can be left empty
+
+\cventry{March 2021 -- April 2022}{Postdoctoral Scholar in Genome Sciences}{University of Washington}{Seattle, Washington}{Lab of Evan E. Eichler}{}  % Arguments not required can be left empty
+
+%\section{\textbf{Faculty Positions Held}}
+%None
+%\section{\textbf{Hospital Positions Held}}
+%one
+
+%----------------------------------------------------------------------------------------
+%	honors SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Honors and Awards}}
+\cvitem{2011}{Graduated with Highest Honors, College of the Redwoods}
+\cvitem{2011}{National Merit Scholarship Semifinalist}
+\cvitem{2011}{Valedictorian, Academy of the Redwoods}
+%\cvitem{2011}{National Hispanic Recognition Program Scholar}
+
+
+%----------------------------------------------------------------------------------------
+%	Random SECTION
+%----------------------------------------------------------------------------------------
+
+
+%\section{\textbf{Board Certifications}}
+%None
+
+%\section{\textbf{Current Licenses to Practice}}
+%None
+
+\section{\textbf{Professional Organizations}}
+\cvitem{2020-Present}{Member of the Telomere to Telomere consortium (T2T)}
+\cvitem{2020-Present}{Member of the Human Pangenome Reference Consortium (HPRC)}
+\cvitem{2021-Present}{Member of American Society of Human Genetics (ASHG)}
+
+%\section{\textbf{Teaching Responsibilities}}
+%None
+
+%\section{\textbf{Special National Responsibilities}}
+%None
+
+%\section{\textbf{Special Local Responsibilities}}
+%None
+
+%\section{\textbf{Editorial Responsibilities}}
+%None
+
+
+\section{\textbf{Research Funding}}
+\cvitem{Fall 2022 - Fall 2024}{NIH/NHGRI T32 Genome Training Grant through the Division of Medical Genetics at University of Washington.}
+\cvitem{Fall 2017 - Fall 2019}{BDGN, Big Data in Genomics and Neuroscience. Awarded for two years.}
+\cvitem{Fall 2016 - Fall 2017}{NIH/NHGRI T32 Genome Training Grant through Genome Sciences at University of Washington. Awarded for two years.}
+
+
+%----------------------------------------------------------------------------------------
+%	Publications SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Bibliography}}{
+  \input{pub}
+ }
+%----------------------------------------------------------------------------------------
+%	Invited Talks SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Invited Talks}}
+
+\cventry{April 2023}{Speaker}{Division of Medical Genetics Seminar Series}{University of Washington}{}{Comprehensive diploid genetic and epigenetic profiles with single-molecule precision}
+
+\cventry{Feb 2023}{Speaker}{AGBT 2023}{Hollywood Florida, National}{}{Comprehensive diploid genetic and epigenetic profiles with single-molecule precision}
+
+\cventry{Dec 2022}{Lighting talk}{Genome Sciences 20th anniversary symposium}{University of Washington}{}{A complete view of segmental duplications and their variation}
+
+\cventry{Oct 2022}{Invited talk}{Long-Read, Long-Range scientific interest group}{NIH}{}{Using a complete human reference to explore variation in segmental duplications}
+
+\cventry{Aug 2022}{Plenary talk}{T2T-F2F conference, National}{University of California Santa Cruz}{}{Increased mutation rate and interlocus gene conversion within human segmental duplications}
+
+\cventry{March 2022}{Speaker}{UCSC BME departmental seminar series, Local}{}{}{Segmental duplications and their variation in a complete human genome}
+
+\cventry{Oct 2021}{Speaker}{NHGRI computational biology seminar series, Local}{}{}{Segmental duplications and their variation in a complete human genome}
+
+\cventry{Sep 2021}{Section talk}{American Society of Human Genetics, National}{}{}{A complete view of segmental duplications and their variation}
+
+
+\cventry{Sep 2020}{Plenary talk}{T2T and HPRC conference, National}{University of Washington}{}{A complete view of segmental duplications and their variation}
+
+
+\cventry{Sep 2019}{Plenary talk}{Pacific Biosciences User Group Meeting, National}{University of Delaware}{}{Improved Assembly of Segmental Duplications Using HiFi}
+
+
+\cventry{Feb 2015}{Speaker}{The Princeton High Throughput Sequencing Group, Local}{Princeton University}{}{Computational methods to quantify DNA damage done to Saccharomyces cerevisiae by UV and Cisplatin }
+
+
+
+%----------------------------------------------------------------------------------------
+%	Posters SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Posters}}
+
+\cventry{September 2022}{Fibertools: computational methods for chromatin accessibility with long-reads}{Genome Sciences Annual Retreat}{Washington University}{}{}
+
+\cventry{May 2021}{A complete view of segmental duplications and their variation}{Biology of genomes}{Cold Spring Harbor Laboratory}{}{}
+
+\cventry{December 2019}{Improved Assembly of Human Genomes Using HiFi}{Annual Scientific Meeting}{Howard Hughes Medical Institute}{}{Presented a poster on my research on assembly of human genomes using accurate long reads.}
+
+\cventry{October 2018}{Resolving segmental duplications using long reads and correlation clustering}{Collaborative Seminar Series}{Allen Institute, Fred Hutch, and UW Medicine}{}{Presented a poster on my thesis research on developing and applying methods that use paralog specific variants (PSVs) to resolve collapsed duplications to improve genome assembly. }
+
+\cventry{September 2017/2018}{Resolving Segmental Duplications with PSV based Community Detection}{Genome Sciences Annual Retreat}{Washington University}{}{Presented a poster on my thesis research on developing and applying methods that use paralog specific variants (PSVs) to resolve collapsed duplications to improve genome assembly.  }
+
+\cventry{April 2017}{Identifying Multiple Charge States of Peptides in Mass Spectrometry}{2017 NHGRI Annual Meeting}{Washington University in St. Louis}{}{Presented a poster on the research I did with William Noble. A description of the research can be found in the Independent Work and Research section. }
+
+%----------------------------------------------------------------------------------------
+%	Other Experience
+%----------------------------------------------------------------------------------------
+%\section{\textbf{Other Employment}}
+%None
+
+%----------------------------------------------------------------------------------------
+%	Research Experience
+%----------------------------------------------------------------------------------------
+%\section{\textbf{Research Experience}}
+
+%\cventry{April 2022 - Present}{Postdoctoral Scholar}{Exploring regulatory elements and chromatin architecture with Fiber-Seq}{University of Washington}{}{Advisor Andrew B. Stergachis.}
+
+%\cventry{Spring 2021 - April 2022}{Postdoctoral Scholar}{Resolving Duplications in Genome Assembly}{University of Washington}{}{Advisor Evan Eichler, Genome Sciences.}
+
+%\cventry{Spring 2018 - 2021}{Doctoral Candidate}{Resolving Duplications in Genome Assembly}{University of Washington}{}{Advisor Evan Eichler, Genome Sciences.}
+
+%\cventry{Spring 2017 - Spring 2018}{Predoctoral Candidate}{See previous item}{University of Washington}{}{}
+
+%\cventry{Winter 2017}{Predoctoral Candidate}{Identifying Insertion/Deletion Events in Mendelian Diseases}{University of Washington}{}{Advisor Debbie Nickerson, Genome Sciences.}
+
+%\cventry{Fall 2016}{Predoctoral Candidate}{Tandem Identification of Multiple Charge States in MS}{University of Washington}{}{Advisor William Noble, Genome Sciences. }
+
+%\cventry{Fall 2014 - Summer 2015}{Undergraduate Researcher}{Developing a Reference Genome for W303}{Princeton University}{}{Advisor Alison Gammie, Molecular Biology Department. Developed methods to create a reference genome for W303 \textit{Saccharomyces cerevisiae} using existing high-throughput sequencing data.}
+
+%\cventry{Fall 2014 - Summer 2015}{Undergraduate Researcher}{Quantifying Mutations Due to Cisplatin and UV}{Princeton University}{}{Advisor Alison Gammie, Molecular Biology Department.}
+
+%\cventry{Fall 2013}{Undergraduate Researcher}{Analysis of an Artificial Transcription Factor}{Princeton University}{}{Advisors Megan McClean, Alison Gammie, Marcus Noyes.}
+
+
+\section{\textbf{Teaching Responsibilities}}
+
+\cventry{October 2022}{Invited Lecture}{Genomics and Proteomics (Genome 372)}{Gene discovery and comparative genomics}{}{University of Washington, Department of Genome Sciences}
+
+\cventry{Spring 2022}{Primary Lecturer}{Introduction to Statistical Genomics (Genome 560)}{}{}{University of Washington, Department of Genome Sciences}
+
+\cventry{Winter 2020}{Teaching Assistant}{Introduction to Computational Molecular Biology}{Lead weekly discussion sections, organized and graded assignments, and held weekly office hours}{}{University of Washington, Department of Genome Sciences}
+
+\cventry{Summer 2019}{Teaching Assistant}{Fundamentals of Genetics and Genomics }{Lead weekly discussion sections, graded assignments, and held weekly office hours}{}{University of Washington, Department of Genome Sciences}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{\textbf{Programming Languages}}
+
+\cvitem{Daily}{Python, Snakemake, R}
+\cvitem{Weekly}{Rust}
+\cvitem{As needed}{C, C++, Java, \LaTeX}
+
+
+%----------------------------------------------------------------------------------------
+%	References SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{References}}
+
+\cvitem{ \textcolor{blue}{\href{https://stergachislab.org/}{A. Stergachis}}}{absterga@uw.edu}
+\cvitem{ \textcolor{blue}{\href{https://eichlerlab.gs.washington.edu/index.html}{E. Eichler}}}{eee@gs.washington.edu  }
+\cvitem{ \textcolor{blue}{\href{https://genomeinformatics.github.io/}{A. Phillippy}}}{adam.phillippy@nih.gov}
+\cvitem{ \textcolor{blue}{\href{https://www.timplab.org/}{W. Timp}}}{wtimp@jhu.edu}
+\cvitem{ \textcolor{blue}{\href{https://cglgenomics.ucsc.edu/}{B. Paten}}}{bpaten@ucsc.edu}
+
+%%\cvitem{ \textcolor{blue}{\href{http://chaissonlab.usc.edu/}{M. Chaisson}}}{mchaisso@usc.edu}
+%%\cvitem{ \textcolor{blue}{\href{http://infotheory.ee.washington.edu/}{S. Kannan }}}{ksreeram@uw.edu    }
+%\cvitem{ \textcolor{blue}{\href{http://molbio.princeton.edu/faculty/molbio-faculty/108-gammie}{A. Gammie}}}{agammie@princeton.edu  }
+%\cvitem{ \textcolor{blue}{\href{https://www.cs.princeton.edu/~bwk/}{B. Kernighan }}}{bwk.cs@princeton.edu   }
+%\cvitem{ \textcolor{blue}{\href{http://directory.engr.wisc.edu/bme/Faculty/Mcclean_Megan/}{M. McClean}}}{mmcclean@princeton.edu}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

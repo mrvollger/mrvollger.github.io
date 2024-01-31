@@ -4,3 +4,10 @@ _site/**
 .jekyll-metadata
 assets/images/bio-photo_800.ai
 .ruby-version
+CV/*.aux
+CV/*.log
+CV/*.out
+CV/*.lfs
+CV/*.synctex.gz
+CV/*.fdb_latexmk
+CV/*.fls
