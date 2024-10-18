@@ -204,18 +204,21 @@ def make_pub_tex(bibtex_database, args):
         cur_year = get_year(entry)
         if cur_year == "First author" and first_header:
             logging.info("Adding first author header")
-            tex += "\subsection{\\textbf{First author}}\n\n\n"
+            tex += "\\needspace{6em}%\n"
+            tex += "\subsection{\Large\\textbf{First author}}\n\n\n"
             first_header = False
         elif get_year(entry) == "Corresponding author" and last_header and not first_header:
             logging.info("Adding corresponding author header")
-            tex += "\n\subsection{\\textbf{Corresponding author}}\n\n\n"
+            tex += "\\needspace{6em}%\n"
+            tex += "\n\subsection{\Large\\textbf{Corresponding author}}\n\n\n"
             last_header = False
         elif other_header and not first_header and not last_header:
             logging.info("Adding collaborative author header")
-            tex += "\n\subsection{\\textbf{Collaborative author}}\n\n\n"
+            tex += "\\needspace{6em}%\n"
+            tex += "\n\subsection{\Large\\textbf{Collaborative author}}\n\n\n"
             other_header = False
 
-        tex += "\cvitem{\\textbf{---}}{"
+        tex += "\cvitem{\\textbf{---  }}{"
         tex += make_author_string(entry, args) + " "
         tex += get_title(entry) + ". "
         tex += "\emph{" + get_journal(entry) + "}. "
