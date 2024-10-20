@@ -1,0 +1,74 @@
+#:schema https://raw.githubusercontent.com/mintyfrankie/brilliant-CV/main/metadata.toml.schema.json
+
+# Set the output language
+# INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
+language = "en"
+
+[layout]
+    # Optional values: skyblue, red, nephritis, concrete, darknight
+    # You can also use a custom color by hex code i.e. "#1E90FF"
+    awesome_color = "#00008B"
+
+    # Skips are for controlling the spacing between sections and entries
+    before_section_skip = "3pt"
+    before_entry_skip = "1pt"
+    before_entry_description_skip = "0pt"
+
+    [layout.fonts]
+        #regular_fonts = ["Source Sans Pro", "Source Sans 3"]
+        #header_font = "Roboto"
+        header_font="Times New Roman"
+        regular_fonts = ["Times New Roman"]
+
+
+    [layout.header]
+        # Optional values: left, center, right
+        header_align = "center"
+
+        # Decide if you want to display profile photo or not
+        display_profile_photo = false
+
+    [layout.entry]
+        # Decide if you want to put your company in bold or your position in bold
+        display_entry_society_first = false
+
+        # Decide if you want to display organisation logo or not
+        display_logo = true
+
+[inject]
+    # Decide if you want to inject AI prompt or not
+    inject_ai_prompt = false
+
+    # Decide if you want to inject keywords or not
+    inject_keywords = false
+    injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
+
+[personal]
+    first_name = "Mitchell"
+    last_name = "Vollger"
+
+    # The order of this section will affect how the entries are displayed
+    # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
+    [personal.info]
+        email = "mvollger@uw.edu"
+        homepage = "https://mrvollger.github.io"
+        phone = "+1 (707) 407-8732"
+        github = "mrvollger"
+        orcid = "0000-0002-8651-1615"
+        # linkedin = "johndoe"
+        # gitlab = "mintyfrankie"
+        # researchgate = "John-Doe"
+        # extraInfo = "I am a cool kid"
+        [personal.info.custom-1]
+            # image = "" # Example: image("./path/to/image.png")
+            awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+            text = "Ph.D."
+            link = "https://www.gs.washington.edu/"
+
+# add a new section if you want to include the language of your choice
+# i.e. [[lang.ru]]
+# each section must contains the following fields
+[lang.en]
+    header_quote = "Postdoctorall Scholar in the Division of Medical Genetics at the University of Washington"
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Cover letter"
