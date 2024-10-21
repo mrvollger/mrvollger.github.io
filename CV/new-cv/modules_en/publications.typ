@@ -5,8 +5,11 @@
 
 #cvSection("Publications")
 
-#show "First, Ed.": "First Author"
-#show "Last, Ed.": "Last Author"
+// highlight my name in blod when it happens
+#let highlight_color = rgb(metadata.layout.awesome_color)
+#show "M. R. Vollger": name => [
+  #underline(text(name, weight: "extrabold", fill: highlight_color))
+]
 
 // remove the weird ", Ed." that is added to the "editor" name
 #show regex(", Ed\."): name => []
@@ -31,7 +34,6 @@
   #text(context first_collab.get(), weight: "extrabold")
   #first_collab.update(z => sym.dash.em)
 ]
-
 
 #bibliography(
   ("../src/first-author.bib", "../src/last-author.bib", "../src/collaborative-author.bib"),

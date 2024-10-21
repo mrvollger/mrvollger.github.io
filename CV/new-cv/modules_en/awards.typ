@@ -7,7 +7,7 @@
 
 #cvEntry(
   title: [K99/R00 Pathway to Independence Award],
-  society: [National Institute of General Medical Sciences],
+  society: [National Institute of General Medical Sciences, 1K99GM155552-01],
   date: [Summer 2024 - present],
   location: "Seattle, Washington",
   description: none

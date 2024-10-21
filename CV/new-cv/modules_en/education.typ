@@ -21,7 +21,7 @@ and their variation in humans],
 
 #cvEntry(
   title: [B.S.E. in Computer Science Engineering at Princeton University],
-  society: [At Princeton University in the Department of Computer Science],
+  society: [Departments of Computer Science and Quantitative and Computational Biology],
   date: [Sep. 2011 - June 2015],
   location: [Princeton, New Jersey],
   //logo: image("../src/logos/princeton.png"),
@@ -35,14 +35,16 @@ and their variation in humans],
 
 #cvEntry(
   title: [Associate of Arts Degrees at College of the Redwoods],
-  society: "Graduated with Highest Honors",
+  //society: "Graduated with Highest Honors",
+  description: none,
   date: [Sep. 2008 - June 2011],
   location: [Eureka, California],
   //logo: image("../src/logos/redwoods.png"),
-  description: list(
-    [AA in Mathematics],
-    [AA in Science],
-    //[GPA: 4.00],
-  ),
+  society: [
+    AA in Mathematics
+    #hBar()
+    AA in Science
+    //GPA: 4.00,
+  ]
 )
 

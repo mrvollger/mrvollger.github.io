@@ -27,10 +27,6 @@
    ]
 ]
 
-// highlight my name in blod when it happens
-#show "M. R. Vollger": name => [
-  #underline(text(name, weight: "extrabold", fill: highlight_color))
-]
 
 // Import all the sections
 #importModules((
@@ -39,7 +35,7 @@
   "awards",
   "publications",
   "talks",
-  "posters",
+  //"posters",
   "teaching",
   "misc",
 ))

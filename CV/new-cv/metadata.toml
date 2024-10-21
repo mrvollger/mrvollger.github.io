@@ -7,7 +7,8 @@ language = "en"
 [layout]
     # Optional values: skyblue, red, nephritis, concrete, darknight
     # You can also use a custom color by hex code i.e. "#1E90FF"
-    awesome_color = "#00008B"
+    #awesome_color = "#00008B"
+    awesome_color = "#002f6c"
 
     # Skips are for controlling the spacing between sections and entries
     before_section_skip = "5pt"
@@ -44,7 +45,7 @@ language = "en"
     injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
 
 [personal]
-    first_name = "Mitchell"
+    first_name = "Mitchell R."
     last_name = "Vollger"
 
     # The order of this section will affect how the entries are displayed

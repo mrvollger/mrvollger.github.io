@@ -3,26 +3,25 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-#cvSection("Programming Languages")
+#block(breakable: false)[
+  #cvSection("Programming Languages")
+  #cvSkill(
+    type:[Daily Use], 
+    info:[Rust #hBar() Python #hBar() R #hBar() Snakemake #hBar() Bash]
+  )
 
-#cvSkill(
-  type:[Daily Use], 
-  info:[Rust #hBar() Python #hBar() R #hBar() Snakemake #hBar() Bash]
-)
+  #cvSkill(
+    type:[As needed], 
+    info:[C++ #hBar() LaTeX #hBar() typst]
+  )
+]
 
-#cvSkill(
-  type:[As needed], 
-  info:[C++ #hBar() LaTeX #hBar() typst]
-)
-
-
+#block(breakable: false)[
 #cvSection("Professional Organizations")
-
 #cvSkill(
   info: [Somatic Mosaicism Across Human Tissues consortium (SMaHT)],
   type: [2023-Present],
 )
-
 
 #cvSkill(
   info: [American Society of Human Genetics (ASHG)],
@@ -38,9 +37,10 @@
   info: [Human Pangenome Reference Consortium (HPRC)],
   type: [2020-Present],
 )
+]
 
+#block(breakable: false)[
 #cvSection("References")
-
 #cvSkill(
   info: [
     #link("https://stergachislab.org/")[Andrew B. Stergachis]
@@ -85,3 +85,4 @@
   ],
   type: "Collaborator",
 )
+]
