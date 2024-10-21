@@ -43,14 +43,5 @@
   ),
   title: none,
   full: true,
-  style: "../cv.csl",
+  style: "../src/cv.csl",
 )
-
-
-//#cvPublication(
-//  bib: bibliography("../src/works.bib"),
-//  keyList: (
-//    "Vollger_2023a",
-//  ),
-//  refStyle: "cv.csl",
-//)
