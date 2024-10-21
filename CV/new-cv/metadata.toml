@@ -17,9 +17,12 @@ language = "en"
 
     [layout.fonts]
         #regular_fonts = ["Source Sans Pro", "Source Sans 3"]
-        #header_font = "Roboto"
-        header_font="Times New Roman"
+        header_font = "Source Sans Pro"
+        #header_font="Times New Roman"
         regular_fonts = ["Times New Roman"]
+        #regular_fonts = ["Source Sans Pro", "Times New Roman"]
+        #regular_fonts = ["Source Sans Pro"]
+        #regular_fonts = ["Source Sans Pro 3"]
 
 
     [layout.header]

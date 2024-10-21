@@ -23,7 +23,7 @@
 
 #cvEntry(
   title: [Introduction to Computational Molecular Biology],
-  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held weekly office hours],
+  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held office hours],
   date: [Winter 2020],
   description: none,
   location: [University of Washington],
@@ -31,7 +31,7 @@
 
 #cvEntry(
   title: [Fundamentals of Genetics and Genomics],
-  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held weekly office hours],
+  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held office hours],
   date: [Summer 2019],
   location: [University of Washington],
   description: none,
