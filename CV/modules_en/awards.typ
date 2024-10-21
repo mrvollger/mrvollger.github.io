@@ -9,7 +9,7 @@
   title: [K99/R00 Pathway to Independence Award],
   society: [National Institute of General Medical Sciences, 1K99GM155552-01],
   date: [Summer 2024 - present],
-  location: "Seattle, Washington",
+  location: "University of Washington",
   description: none,
 )
 
@@ -17,7 +17,7 @@
   title: [NIH/NHGRI T32 Genome Training Grant],
   society: [Division of Medical Genetics at University of Washington],
   date: [Fall 2022 - Fall 2024],
-  location: "Seattle, Washington",
+  location: "University of Washington",
   description: none,
 )
 
@@ -25,7 +25,7 @@
   title: [BDGN, Big Data in Genomics and Neuroscience],
   society: [Genome Sciences at University of Washington],
   date: [Fall 2017 - Fall 2019],
-  location: "Seattle, Washington",
+  location: "University of Washington",
   description: none,
 )
 
@@ -33,7 +33,7 @@
   title: [NIH/NHGRI T32 Genome Training Grant],
   society: [Genome Sciences at University of Washington],
   date: [Fall 2016 - Fall 2017],
-  location: "Seattle, Washington",
+  location: "University of Washington",
   description: none,
 )
 

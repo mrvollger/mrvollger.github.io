@@ -8,6 +8,7 @@ language = "en"
     # Optional values: skyblue, red, nephritis, concrete, darknight
     # You can also use a custom color by hex code i.e. "#1E90FF"
     #awesome_color = "#00008B"
+    #awesome_color = "#990000"
     awesome_color = "#002f6c"
 
     # Skips are for controlling the spacing between sections and entries

@@ -9,14 +9,18 @@
   }
 }
 
-#let highlight_color = rgb(metadata.layout.awesome_color)
-
 // show the header with metadata
 #show: cv.with(
   metadata,
   profilePhoto: image("./src/avatar.png"),
 )
 
+//
+// some of my custom settings
+//
+#let highlight_color = rgb(metadata.layout.awesome_color)
+
+// highlight links in blue and underline them if they are not mailto links
 // dont want to modify the links in the header
 #show link: it => [
   #set text(fill: blue)
