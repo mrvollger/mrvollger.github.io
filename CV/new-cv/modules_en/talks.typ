@@ -8,7 +8,7 @@
 #cvEntry(
   title: [Fiber-seq and tools to understand the regulatory genome in a disease context],
   society: [European Society of Human Genetics (ESHG)],
-  location: [Allianz MiCo  in Milan, Italy],
+  location: [Allianz MiCo in Milan, Italy],
   date: [May 2025],
   description: none,
 )

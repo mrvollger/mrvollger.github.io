@@ -9,8 +9,8 @@
   title: [Postdoctoral Scholar in the Division of Medical Genetics],
   location: [University of Washington],
   date: [April 2022 - Present],
-  society:  [In the lab of Andrew B. Stergachis],
-  description: none
+  society: [In the lab of Andrew B. Stergachis],
+  description: none,
 )
 
 #cvEntry(
@@ -18,5 +18,5 @@
   location: [University of Washington],
   date: [March 2021 - April 2022],
   society: [In the lab of Evan E. Eichler],
-  description: none
+  description: none,
 )

@@ -21,12 +21,11 @@
 #show link: it => [
   #set text(fill: blue)
   #if it.dest.contains("mailto") [
-    #underline(it)
-   ] else[
     #it
-   ]
+  ] else [
+    #underline(it)
+  ]
 ]
-
 
 // Import all the sections
 #importModules((

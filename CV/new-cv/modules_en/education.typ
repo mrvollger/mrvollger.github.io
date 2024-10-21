@@ -7,7 +7,7 @@
 
 #cvEntry(
   title: [Ph.D. in Genome Sciences at University of Washington],
-  society: [Dissertation: Assembly of segmental duplications 
+  society: [Dissertation: Assembly of segmental duplications
 and their variation in humans],
   date: [Sep 2016 - March 2021],
   location: [Seattle, Washington],
