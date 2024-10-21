@@ -55,7 +55,7 @@ language = "en"
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
         email = "mvollger@uw.edu"
-        homepage = "https://mrvollger.github.io"
+        homepage = "mrvollger.github.io"
         phone = "+1 (707) 407-8732"
         github = "mrvollger"
         orcid = "0000-0002-8651-1615"
