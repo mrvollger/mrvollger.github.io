@@ -6,21 +6,21 @@
 #cvSection("Education")
 
 #cvEntry(
-  title: [Ph.D. in Genome Sciences],
-  society: [At University of Washington with advisor Evan E. Eichler],
+  title: [Ph.D. in Genome Sciences at University of Washington],
+  society: [Dissertation: Assembly of segmental duplications 
+and their variation in humans],
   date: [Sep 2016 - March 2021],
   location: [Seattle, Washington],
   //logo: image("../src/logos/uw.png"),
   description: list(
     //[GPA: 3.86],
-    [Dissertation: Assembly of segmental duplications 
-and their variation in humans],
-  [Completed the #link("https://www.gs.washington.edu/academics/gradprogram/handbook/first/ads.htm")[Advanced Data Sience Option]]
+    [Advisor: Evan E. Eichler],
+    [Completed the #link("https://www.gs.washington.edu/academics/gradprogram/handbook/first/ads.htm")[Advanced Data Sience Option]]
   ),
 )
 
 #cvEntry(
-  title: [B.S.E. in Computer Science Engineering],
+  title: [B.S.E. in Computer Science Engineering at Princeton University],
   society: [At Princeton University in the Department of Computer Science],
   date: [Sep. 2011 - June 2015],
   location: [Princeton, New Jersey],
@@ -34,8 +34,8 @@ and their variation in humans],
 )
 
 #cvEntry(
-  title: [Associate of Arts Degrees],
-  society: [College of the Redwoods],
+  title: [Associate of Arts Degrees at College of the Redwoods],
+  society: "Graduated with Highest Honors",
   date: [Sep. 2008 - June 2011],
   location: [Eureka, California],
   //logo: image("../src/logos/redwoods.png"),

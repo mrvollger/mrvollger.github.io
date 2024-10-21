@@ -10,8 +10,8 @@ language = "en"
     awesome_color = "#00008B"
 
     # Skips are for controlling the spacing between sections and entries
-    before_section_skip = "3pt"
-    before_entry_skip = "1pt"
+    before_section_skip = "5pt"
+    before_entry_skip = "0pt"
     before_entry_description_skip = "0pt"
 
     [layout.fonts]
@@ -69,6 +69,6 @@ language = "en"
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-    header_quote = "Postdoctorall Scholar in the Division of Medical Genetics at the University of Washington"
+    header_quote = "Postdoctoral Scholar in the Division of Medical Genetics at the University of Washington"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"

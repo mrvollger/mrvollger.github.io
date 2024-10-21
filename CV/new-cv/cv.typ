@@ -9,6 +9,8 @@
   }
 }
 
+#let highlight_color = rgb(metadata.layout.awesome_color)
+
 // show the header with metadata
 #show: cv.with(
   metadata,
@@ -24,6 +26,12 @@
     #it
    ]
 ]
+
+// highlight my name in blod when it happens
+#show "M. R. Vollger": name => [
+  #underline(text(name, weight: "extrabold", fill: highlight_color))
+]
+
 // Import all the sections
 #importModules((
   "education",

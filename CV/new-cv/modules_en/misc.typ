@@ -7,12 +7,12 @@
 
 #cvSkill(
   type:[Daily Use], 
-  info:[Rust, Python, R, Snakemake, Bash]
+  info:[Rust #hBar() Python #hBar() R #hBar() Snakemake #hBar() Bash]
 )
 
 #cvSkill(
   type:[As needed], 
-  info:[C++, LaTeX]
+  info:[C++ #hBar() LaTeX #hBar() typst]
 )
 
 
@@ -42,26 +42,46 @@
 #cvSection("References")
 
 #cvSkill(
-  info: link("https://stergachislab.org/")[Andrew B. Stergachis],
-  type: link("mailto:absterga@uw.edu"),
+  info: [
+    #link("https://stergachislab.org/")[Andrew B. Stergachis]
+    #hBar()
+    #link("mailto:absterga@uw.edu")
+  ],
+  type: "Advisor",
 )
 
 #cvSkill(
-  info: link("https://eichlerlab.gs.washington.edu/index.html")[Evan E. Eichler],
-  type: link("mailto:eee@gs.washington.edu"),
+  info: [
+    #link("https://eichlerlab.gs.washington.edu/index.html")[Evan E. Eichler]
+    #hBar()
+    #link("mailto:eee@gs.washington.edu")
+  ],
+  type: "Advisor",
 )
 
 #cvSkill(
-  info: link("https://genomeinformatics.github.io/")[Adam Phillippy],
-  type: link("mailto:adam.phillippy@nih.gov"),
+  info: [
+    #link("https://genomeinformatics.github.io/")[Adam Phillippy]
+    #hBar()
+    #link("mailto:adam.phillippy@nih.gov")
+  ],
+  type: "Collaborator",
 )
 
 #cvSkill(
-  info: link("https://noble.gs.washington.edu/")[William Noble], 
-  type: link("mailto:wnoble@uw.edu"),
+  info: [
+    #link("https://noble.gs.washington.edu/")[William Noble]
+    #hBar()
+    #link("mailto:wnoble@uw.edu")
+  ],
+  type: "Collaborator",
 )
 
 #cvSkill(
-  info: link("https://www.timplab.org/")[Winston Timp],
-  type: link("mailto:wtimp@jhu.edu"),
+  info: [
+    #link("https://www.timplab.org/")[Winston Timp]
+    #hBar()
+    #link("mailto:wtimp@jhu.edu")
+  ],
+  type: "Collaborator",
 )

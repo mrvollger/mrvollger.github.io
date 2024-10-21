@@ -10,7 +10,7 @@
   society: [National Institute of General Medical Sciences],
   date: [Summer 2024 - present],
   location: "Seattle, Washington",
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -18,7 +18,7 @@
   society: [Division of Medical Genetics at University of Washington],
   date: [Fall 2022 - Fall 2024],
   location: "Seattle, Washington",
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -26,7 +26,7 @@
   society: [Genome Sciences at University of Washington],
   date: [Fall 2017 - Fall 2019],
   location: "Seattle, Washington",
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -34,7 +34,7 @@
   society: [Genome Sciences at University of Washington],
   date: [Fall 2016 - Fall 2017],
   location: "Seattle, Washington",
-  description: "" 
+  description: none 
 )
 
 

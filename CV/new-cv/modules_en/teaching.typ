@@ -7,32 +7,32 @@
 
 #cvEntry(
   title: [Gene discovery and comparative genomics],
-  society: [Invited Lecutre],
+  society: [Invited Lecutre, Genomics and Proteomics, undergraduate course],
   date: [October 2022],
-  description: [Undergraduate Genomics and Proteomics course],
+  description: none,
   location: [University of Washington],
 )
 
 #cvEntry(
   title: [Introduction to Statistical Genomics],
-  society: [Primary Instructor],
+  society: [Primary Instructor, Introduction to Statistical Genomics, graduate course],
   date: [Spring 2022],
-  description: [Introduction to Statistical Genomics, graduate course],
+  description: none,
   location: [University of Washington],
 )
 
 #cvEntry(
   title: [Introduction to Computational Molecular Biology],
-  society: [Teaching Assistant],
+  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held weekly office hours],
   date: [Winter 2020],
-  description: [Lead weekly discussion sections, organized and graded assignments, and held weekly office hours],
+  description: none,
   location: [University of Washington],
 )
 
 #cvEntry(
   title: [Fundamentals of Genetics and Genomics],
-  society: [Teaching Assistant],
+  society: [Teaching Assistant, Lead weekly discussion sections, organized and graded assignments, and held weekly office hours],
   date: [Summer 2019],
-  description: [Lead weekly discussion sections, graded assignments, and held weekly office hours],
   location: [University of Washington],
+  description: none,
 )

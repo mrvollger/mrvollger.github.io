@@ -10,7 +10,7 @@
   society: [Genome Sciences Annual Retreat],
   location: [University of Washington],
   date: [September 2022],
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -18,7 +18,7 @@
   society: [Biology of Genomes],
   location: [Cold Spring Harbor, New York],
   date: [May 2021],
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -26,7 +26,7 @@
   society: [Annual Scientific Meeting, Howard Hughes Medical Institute],
   date: [December 2019],
   location: [Chevy Chase, Maryland],
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -34,7 +34,7 @@
   society: [Collaborative Seminar Series, Allen Institute, Fred Hutch, and UW Medicine],
   date: [October 2018],
   location: [University of Washington],
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -42,7 +42,7 @@
   society: [Genome Sciences Annual Retreat, Washington University],
   date: [September 2017/2018],
   location: [University of Washington],
-  description: ""
+  description: none
 )
 
 #cvEntry(
@@ -50,5 +50,5 @@
   society: [NHGRI Annual Meeting],
   date: [April 2017],
   location: [Washington University in St. Louis, Missouri],
-  description: ""
+  description: none
 )

@@ -10,7 +10,7 @@
   society: [European Society of Human Genetics (ESHG)],
   location: [Allianz MiCo  in Milan, Italy],
   date: [May 2025],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -18,7 +18,7 @@
   society: [Telomere-to-telomere face-to-face conference],
   location: [University of California Santa Cruz],
   date: [Summer 2024],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -26,7 +26,7 @@
   society: [Division of Medical Genetics Seminar Series],
   location: [University of Washington],
   date: [April 2023],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -34,7 +34,7 @@
   society: [AGBT 2023],
   location: [Hollywood, Florida],
   date: [Feb 2023],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -42,7 +42,7 @@
   society: [Genome Sciences 20th anniversary symposium],
   location: [University of Washington],
   date: [Dec 2022],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -50,7 +50,7 @@
   society: [Long-Read, Long-Range scientific interest group],
   location: [NHGRI, remote],
   date: [Oct 2022],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -58,7 +58,7 @@
   society: [Telomere-to-telomere face-to-face conference],
   location: [University of California Santa Cruz],
   date: [Aug 2022],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -66,7 +66,7 @@
   society: [UCSC BME departmental seminar series],
   location: [University of California Santa Cruz, remote],
   date: [March 2022],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -74,7 +74,7 @@
   society: [NHGRI computational biology seminar series],
   location: [NHGRI, remote],
   date: [Oct 2021],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -82,7 +82,7 @@
   society: [American Society of Human Genetics, Section talk],
   location: [remote],
   date: [Sep 2021],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -90,7 +90,7 @@
   society: [T2T and HPRC conference],
   location: [University of Washington],
   date: [Sep 2020],
-  description: "",
+  description: none,
 )
 
 #cvEntry(
@@ -98,6 +98,6 @@
   society: [Pacific Biosciences User Group Meeting],
   location: [University of Delaware],
   date: [Sep 2019],
-  description: "",
+  description: none,
 )
 
