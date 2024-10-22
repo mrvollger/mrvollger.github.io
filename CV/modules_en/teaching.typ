@@ -7,7 +7,7 @@
 
 #cvEntry(
   title: [Gene discovery and comparative genomics],
-  society: [Invited Lecutre, Genomics and Proteomics, undergraduate course],
+  society: [Invited Lecture, Genomics and Proteomics, undergraduate course],
   date: [October 2022],
   description: none,
   location: [University of Washington],

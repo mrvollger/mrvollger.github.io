@@ -15,7 +15,7 @@ and their variation in humans],
   description: list(
     //[GPA: 3.86],
     [Advisor: Evan E. Eichler],
-    [Completed the #link("https://www.gs.washington.edu/academics/gradprogram/handbook/first/ads.htm")[Advanced Data Sience Option]]
+    [Completed the #link("https://www.gs.washington.edu/academics/gradprogram/handbook/first/ads.htm")[Advanced Data Science Option]]
   ),
 )
 
