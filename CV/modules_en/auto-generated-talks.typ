@@ -14,10 +14,18 @@
 )
 
 #cvEntry(
+  title: [Computational tools for Fiber-seq and Fiber-seq Inferred Regulatory Elements],
+  society: [BBI Long-read Symposium],
+  location: [Seattle Children's Research Institute],
+  date: [Oct 2024],
+  description: none,
+)
+
+#cvEntry(
   title: [Fiber-seq Inferred Regulatory Elements with diploid T2T genomes],
   society: [Telomere-to-telomere face-to-face conference],
   location: [University of California Santa Cruz],
-  date: [Summer 2024],
+  date: [Aug 2024],
   description: none,
 )
 
@@ -25,7 +33,7 @@
   title: [Comprehensive diploid genetic and epigenetic profiles with single-molecule precision],
   society: [Division of Medical Genetics Seminar Series],
   location: [University of Washington],
-  date: [April 2023],
+  date: [Apr 2023],
   description: none,
 )
 
@@ -65,7 +73,7 @@
   title: [Segmental duplications and their variation in a complete human genome],
   society: [UCSC BME departmental seminar series],
   location: [University of California Santa Cruz, remote],
-  date: [March 2022],
+  date: [Mar 2022],
   description: none,
 )
 
