@@ -37,7 +37,7 @@
   "professional",
   "awards",
   "publications",
-  "auto-generated-talks",
+  "talks",
   //"posters",
   "teaching",
   "misc",

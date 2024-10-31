@@ -21,7 +21,6 @@ output.write('#import "@preview/brilliant-cv:2.0.3": cvSection, cvEntry, hBar\n'
 output.write('#let metadata = toml("../metadata.toml")\n')
 output.write('#let cvSection = cvSection.with(metadata: metadata)\n')
 output.write('#let cvEntry = cvEntry.with(metadata: metadata)\n\n')
-output.write('#cvSection("Presentations")\n\n')
 
 # Write each entry
 for index, row in df.iterrows():

@@ -3,8 +3,6 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
-#cvSection("Presentations")
-
 #cvEntry(
   title: [Fiber-seq and tools to understand the regulatory genome in a disease context],
   society: [European Society of Human Genetics (ESHG)],
