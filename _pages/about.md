@@ -18,5 +18,7 @@ header:
 
 ## My history
 
+I was born in 1992 in Carson City, Nevada, where I grew to love the high desert and the Sierra Nevada mountains. After a short stint in Elko, Nevada I moved to Eureka California, where I learned to love the ocean and the redwoods.
+
 In 2015 I graduated from Princeton with B.S.E. in computer science and a minor in quantitative and computational biology. During my time at Princeton, I worked in the lab of Alison Gammie improving the reference genome for the yeast strain W303. In 2016 I joined the Department of Genome Sciences at the University of Washington in pursuit of a PhD, ultimately joining the lab of Evan E. Eichler to study the sequence and assembly of segmental duplications in humans and nonhuman primates. I am continued my work in the Eichler lab as a postdoctoral fellow while making contributions to the T2T and HPRC. Currently, I am in Andrew Stergachis' [lab](https://stergachislab.org/) at the University of Washington.
 To learn about my dog classification system see [here](https://raw.githubusercontent.com/mrvollger/mrvollger.github.io/master/assets/images/DogClassifier.png) (credit Michelle Noyes).
