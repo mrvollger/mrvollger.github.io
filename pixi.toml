@@ -1,0 +1,29 @@
+[project]
+authors = ["Mitchell R. Vollger <mvollger@gmai.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "mrvollger.github.io"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+cv_talks = { cmd = "cd CV && python update-scripts/talks.py > modules_en/auto-generated-talks.typ" }
+cv_pubs = { cmd = "touch CV/modules_en/publications.typ && cd CV && python update-scripts/split-citations.py ../scripts/works.bib" }
+cv = { cmd = "cd CV && typst compile Mitchell-R-Vollger-CV.typ", depends-on = [
+    "cv_talks",
+    "cv_pubs",
+] }
+local = { cmd = "bundle exec jekyll serve" }
+pubs = { cmd = "python scripts/build_from_citations.py scripts/works.bib --html >_includes/pubs.html" }
+
+
+[dependencies]
+pandas = ">=2.2.3,<3"
+bibtexparser = ">=1.4.3,<2"
+pandoc-crossref = ">=0.3.18.1,<0.4"
+crossref_commons_py = ">=0.0.7,<0.0.8"
+typst = ">=0.13.1,<0.14"
+pybtex = ">=0.24.0,<0.25"
+openpyxl = ">=3.1.5,<4"
+
+[pypi-dependencies]
+crossrefapi = ">=0.5"

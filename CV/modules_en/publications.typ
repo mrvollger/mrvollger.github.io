@@ -37,11 +37,14 @@
 
 #bibliography(
   (
-    "../src/first-author.bib",
     "../src/last-author.bib",
+    "../src/first-author.bib",
     "../src/collaborative-author.bib",
   ),
   title: none,
   full: true,
   style: "../src/cv.csl",
 )
+
+
+

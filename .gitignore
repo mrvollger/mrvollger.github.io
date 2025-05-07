@@ -12,3 +12,7 @@ CV/old-cv/*.synctex.gz
 CV/old-cv/*.fdb_latexmk
 CV/old-cv/*.fls
 CV/modules_en/*.pdf
+
+# pixi environments
+.pixi
+*.egg-info
