@@ -12,9 +12,9 @@ cv = { cmd = "cd CV && typst compile Mitchell-R-Vollger-CV.typ", depends-on = [
     "cv_talks",
     "cv_pubs",
 ] }
-local = { cmd = "bundle exec jekyll serve" }
 pubs = { cmd = "python scripts/build_from_citations.py scripts/works.bib --html >_includes/pubs.html" }
-
+update = { depends-on = ["cv", "pubs"] }
+local = { cmd = "bundle exec jekyll serve" }
 
 [dependencies]
 pandas = ">=2.2.3,<3"
