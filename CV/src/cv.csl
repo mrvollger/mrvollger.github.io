@@ -187,11 +187,8 @@
                 <choose>
                   <if is-numeric="page" match="none">
                     <group>
-                      <group delimiter=", ">
+                      <group delimiter=" ">
                         <text variable="container-title" form="short" font-style="italic"/>
-                        <group>
-                          <text term="in press"/>
-                        </group>
                       </group>
                       <text macro="access"/>
                     </group>
