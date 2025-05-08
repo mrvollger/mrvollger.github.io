@@ -32,5 +32,3 @@ author_profile: true
 Full name: **Mitchell Robert Vollger**
 
 Website: **[mrvollger.github.io](mrvollger.github.io)**
-
-Phone: **(707) 407-8732**
