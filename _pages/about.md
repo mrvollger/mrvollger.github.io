@@ -16,6 +16,10 @@ header:
 
 ---
 
+## The Vollger Lab
+
+The Vollger lab will be coming to the Department of Human Genetics at University of Utah January 1st 2026! New website coming soon. Positions available! Please reach out to me if you are interested in joining the lab.
+
 ## My history
 
 I was born in 1992 in Carson City, Nevada, where I developed a love for the high desert and the Sierra Nevada mountains. After a brief period in Elko, Nevada, my family relocated to Eureka, California, where I discovered a new love for the Pacific Ocean and the Redwoods.
