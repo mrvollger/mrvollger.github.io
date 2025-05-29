@@ -18,7 +18,7 @@ header:
 
 ## The Vollger Lab
 
-The Vollger lab will be coming to the Department of Human Genetics at University of Utah January 1st 2026! New website coming soon. Positions available! Please reach out to me if you are interested in joining the lab.
+The Vollger lab will be coming to the Department of Human Genetics at University of Utah January 1st 2026! New website coming soon at [https://volgerlab.com](https://volgerlab.com). Positions available! Please reach out to me if you are interested in joining the lab.
 
 ## My history
 
