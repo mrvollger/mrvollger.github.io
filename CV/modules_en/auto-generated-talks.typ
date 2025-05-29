@@ -20,6 +20,14 @@
 )
 
 #cvEntry(
+  title: [Tooling for accurately studying the epigenome along the human pangenome reference],
+  society: [Human Pangenome Reference Consortium face-to-face conference],
+  location: [University of California Santa Cruz],
+  date: [Aug 2024],
+  description: none,
+)
+
+#cvEntry(
   title: [Fiber-seq Inferred Regulatory Elements with diploid T2T genomes],
   society: [Telomere-to-telomere face-to-face conference],
   location: [University of California Santa Cruz],
